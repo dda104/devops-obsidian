@@ -19,5 +19,22 @@ git clone https://github.com/asdf-vm/asdf.git *path* --branch *version*
 
 3. Добавить автозапуск на примере bash
 
+---
+
 # 🐍 Install old version python
 
+1. Установить python plugin в asdf:
+
+```shell
+asdf plugin-add python
+```
+
+2. Установить требуемую версию python:
+
+```shell
+asdf install python *version*
+```
+
+>
+
+3. Переключиться на установленную версию: `asdf global python 3.11.0`
