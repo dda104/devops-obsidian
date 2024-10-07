@@ -38,6 +38,6 @@
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
   "Virtualenv.md": "SiPython",
-  "Create linux raid via Mdadm.md": "LiHardDrive",
-  "Install old version python via Asdf.md": "SiPython"
+  "Asdf - Install old version python.md": "SiPython",
+  "Mdadm - Create linux raid.md": "LiHardDrive"
 }

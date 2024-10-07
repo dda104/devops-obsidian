@@ -2,5 +2,6 @@
   "useTab": false,
   "tabSize": 2,
   "spellcheck": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
