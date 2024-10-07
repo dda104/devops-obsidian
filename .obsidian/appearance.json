@@ -1,0 +1,7 @@
+{
+  "cssTheme": "Material Gruvbox",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "enabledCssSnippets": [
+    "autowidth"
+  ]
+}
