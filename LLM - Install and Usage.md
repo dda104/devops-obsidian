@@ -32,7 +32,9 @@ Download binary on [LM Studio Website](https://lmstudio.ai)
 
 # ⏩ Continue plugin for IDE
 
-Install Continue plugin for vscode or 
+Install Continue plugin for vscode or jetbrains
+
+
 
 ---
 
