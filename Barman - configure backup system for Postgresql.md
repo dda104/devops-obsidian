@@ -6,7 +6,7 @@
 
 # 💼 Prepare Postgresql
 
-## Create Role
+## 🏗️ Create Role
 
 ```sql
 CREATE user *Role_name* PASSWORD '*Role_password*';
@@ -19,7 +19,7 @@ ALTER USER *Role_name* WITH SUPERUSER;
 
 >[!INFO] `Version` - Это версия Postgresql
 
-## Configure Postgresql
+## 🔧 Configure Postgresql
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
 
@@ -40,7 +40,7 @@ listen_addresses='*IP_address_barman_host*'
 
 # 🔨 Configure Barman on Debian 11
 
-## Install Package
+## ⬇️ Install Package
 
 ```shell
 apt update
@@ -51,7 +51,7 @@ apt update
 apt -y install barman
 ```
 
-## Configure Barman
+## 🔧 Configure Barman
 
 Отредактировать `/etc/barmsn/barman.conf`
 
@@ -98,7 +98,7 @@ barman check postgres
 ---
 # 👨‍🏭 Usage
 
-## Get List Existing Backups
+## 👀 Get List Existing Backups
 
 ```shell
 barman list-backup all
