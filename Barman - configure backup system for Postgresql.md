@@ -6,14 +6,18 @@
 
 # Prepare Postgresql
 
-Требуется создать role
+## Create Role
 
 ```sql
 CREATE user *Role_name* PASSWORD '*Role_password*';
 ALTER USER *Role_name* WITH SUPERUSER;
 ```
 
->[!INFO] `Role_name` - Это название роли, например: `barman`, ``
+>[!INFO] `Role_name` - Это название роли, например: `barman`, `Role_password` - это пароль для роли
+
+Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
+
+## Configure Postgresql
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
 
@@ -30,7 +34,7 @@ listen_addresses='*IP_address_barman_host*'
 
 > [!INFO] max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
-Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
+
 
 ---
 
