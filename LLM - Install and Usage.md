@@ -6,7 +6,13 @@
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-## Get LLM
+## 🤖 Get LLM
+
+```shell
+ollama pull *Model_name*
+```
+
+>[!INFO] `Model_name` - Этол
 
 ---
 
