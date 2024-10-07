@@ -35,6 +35,14 @@ asdf plugin-add python
 asdf install python *version*
 ```
 
->
+> [!INFO] `version` - Это версия python например `3.11.0`
 
-3. Переключиться на установленную версию: `asdf global python 3.11.0`
+3. Переключиться на установленную версию:
+
+```shell
+asdf global python *version*
+```
+
+---
+
+# 
