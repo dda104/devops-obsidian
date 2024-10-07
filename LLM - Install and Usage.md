@@ -26,13 +26,13 @@ ollama pull *Model_name*
 
 # 📦 LM Studio
 
-Download binary on [LM Studio Website](https://lmstudio.ai)
+Скачать пакет под свою систему на [LM Studio Website](https://lmstudio.ai)
 
 ---
 
 # ⏩ Continue plugin for IDE
 
-Install Continue plugin for vscode or jetbrains
+Установить Continue плагин для vscode или jetbrains
 
 ---
 
