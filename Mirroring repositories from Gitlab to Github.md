@@ -12,5 +12,7 @@ Gitlab и Github поддерживают настройку зеркалиро�
 
 1. Перейти в настройки Gitlab Settings -> Repository
 2. Добавить `Mirroring repositories`:
-  - Git repository URL ука
-3. 
+  - Git repository URL указать https ссылку на github репозиторий
+  - Authentication method: Username and Password
+  - Username: 
+1. 
