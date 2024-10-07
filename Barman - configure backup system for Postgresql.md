@@ -38,7 +38,7 @@ listen_addresses='*IP_address_barman_host*'
 
 ---
 
-# Configure Barman on Debian 11
+# 🔨 Configure Barman on Debian 11
 
 ## Install Package
 
@@ -96,7 +96,7 @@ barman check postgres
 > [!INFO] Должно быть все OK кроме количества бэкапов
 
 ---
-# Usage
+# 👨‍🏭 Usage
 
 ## Get List Existing Backups
 
