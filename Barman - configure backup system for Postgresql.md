@@ -6,14 +6,16 @@
 
 # Prepare Postgresql
 
-Требуется создать У.З. например `barman`
+Требуется создать role например `barman`
 
 ```sql
 CREATE user barman PASSWORD 'barman';
 ALTER USER barman WITH SUPERUSER;
 ```
 
-Внести изменения в `/etc/postgresql/*version*/main/postgresql.conf`
+Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
+
+>[!INFO] `Version` - Это версия Postgresql
 
 ```ini
 wal_level = replica or logical
@@ -24,7 +26,7 @@ listen_addresses='*'
 
 > [!INFO] max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
-Добавить пользователя в `/etc/postgres/*version*/main/pg_hba.conf`
+Добавить пользователя в `/etc/postgres/*Version*/main/pg_hba.conf`
 
 ---
 
