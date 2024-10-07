@@ -34,10 +34,10 @@
     "debugMode": false
   },
   "README.md": "❗",
-  "Create Telegram Bot.md": "SiTelegram",
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
-  "Virtualenv.md": "SiPython",
   "Asdf - Install old version python.md": "SiPython",
-  "Mdadm - Create linux raid.md": "LiHardDrive"
+  "Mdadm - Create linux raid.md": "LiHardDrive",
+  "Telegram Bot - Create guide.md": "SiTelegram",
+  "Virtualenv - Create guide.md": "SiPython"
 }
