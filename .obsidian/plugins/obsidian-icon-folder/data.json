@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiTelegram",
       "❗",
       "✍"
     ],
@@ -30,5 +31,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "README.md": "❗"
+  "README.md": "❗",
+  "Create Telegram Bot.md": "SiTelegram"
 }
