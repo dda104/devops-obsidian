@@ -14,6 +14,7 @@
   Использование: `cloc *Path*`, где `Path` - Это путь до директории с кодом, например: `.`
   Ссылки: [Cloc Website](https://cloc.sourceforge.net)
 
-- Mkisofs - Создание 
+- Mkisofs - Утилита для создания iso образов
+  Использование: `mkisofs -lJR -o *Output_image*.iso *Path_to_directory*`, где ``
 
 ---
