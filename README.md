@@ -28,6 +28,6 @@
 2. Учитывать правила и best practice оформления Markdown в странице [[Markdown best practice]]
 3. Репозиторий не должен содержать sensitive data
 
-> [!CAUTION]
+> [!CAUTION] Необходимо учитывать auto push в репозиторий и не выполнять вставку кода с sensitive data
 
 ---
