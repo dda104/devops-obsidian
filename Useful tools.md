@@ -8,6 +8,8 @@
 
 - Asdf - Это инструмент для установки старых версий языков программирования.
   Страница в obsidian: [[Asdf - Install old version python]]
-  Официальный
+  Ссылки: [Asdf website](https://asdf-vm.com), [Asdf github](https://github.com/asdf-vm/asdf.git)
+
+
 
 ---
