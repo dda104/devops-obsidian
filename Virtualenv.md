@@ -24,8 +24,6 @@ python3 -m venv *venv_name*
 source *venv_name*/bin/activate
 ```
 
->[!INFO] `venv_name` - Это произвольное название виртуального окружения, часто используется `.venv`
-
 3️⃣ Выход из виртуального окружения:
 
 ```shell
