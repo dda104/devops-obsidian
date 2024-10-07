@@ -33,7 +33,7 @@ source .venv/bin/activate
 3. Установить telebot:
 
 ```shell
-pip install telebot
+pip install pyTelegramBotAPI
 ```
 
 4. Создать и запустить python скрипт
