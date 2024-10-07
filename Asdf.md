@@ -26,6 +26,8 @@ git clone https://github.com/asdf-vm/asdf.git *path* --branch *version*
 } >> ~/.bashrc
 ```
 
+>[!INFO] `path` - Это путь до репозитория в файловой системе
+
 ---
 
 # 🐍 Install old version python
