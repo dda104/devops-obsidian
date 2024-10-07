@@ -71,6 +71,6 @@ bot.polling()
 
 [BotFather](https://t.me/BotFather)
 [PyPi Telebot](https://pypi.org/project/pyTelegramBotAPI/)
-[PyPi VirtualEnv](https://pypi.org/project/virtualenv/)
+[PyPi Virtualenv](https://pypi.org/project/virtualenv/)
 
 ---
