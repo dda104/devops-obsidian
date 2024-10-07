@@ -4,3 +4,7 @@ Github и Gitlab поддерживают настройку зеркалиро�
 
 # 1️⃣ Prepare
 
+Create Gitalb and Github repositories.
+
+Create Gitlab token for sync.
+
