@@ -26,7 +26,7 @@ ollama pull *Model_name*
 
 # 📦 LM Studio
 
-Download binary on 
+Download binary on [LM Studio Website](https://lmstudio.ai)
 
 ---
 
