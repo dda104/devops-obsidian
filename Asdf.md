@@ -19,6 +19,13 @@ git clone https://github.com/asdf-vm/asdf.git *path* --branch *version*
 
 3. Добавить автозапуск на примере bash
 
+```shell
+{
+    echo 'source "*path*/asdf.sh"'
+    echo 'source "*path*/completions/asdf.bash"'
+} >> ~/.bashrc
+```
+
 ---
 
 # 🐍 Install old version python
@@ -48,5 +55,6 @@ asdf global python *version*
 # 🌎 Links
 
 [Asdf website](https://asdf-vm.com)
+[Asdf github](https://github.com/asdf-vm/asdf.git)
 
 ---
