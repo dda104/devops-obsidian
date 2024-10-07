@@ -4,10 +4,10 @@ Gitlab и Github поддерживают настройку зеркалиро�
 
 # 1️⃣ Prepare
 
-Создать Gitlab и Github репозитории.
+Создать Gitlab и Github репозитории
 
-Create Github token for sync with workflow right.
+Создать в Github токен для зеркалирования с правами `workflow`
 
 # 2️⃣ Configure
 
-Open Gitlab Settings -> Repository
+Перейти в настGitlab Settings -> Repository
