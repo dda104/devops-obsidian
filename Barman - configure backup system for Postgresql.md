@@ -6,12 +6,14 @@
 
 # Prepare Postgresql
 
-Требуется создать role например `barman`
+Требуется создать role
 
 ```sql
-CREATE user barman PASSWORD 'barman';
-ALTER USER barman WITH SUPERUSER;
+CREATE user *Role_name* PASSWORD '*Role_password*';
+ALTER USER *Role_name* WITH SUPERUSER;
 ```
+
+>[!INFO] `Role_name` - Это название роли, например: `barman`, ``
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
 
