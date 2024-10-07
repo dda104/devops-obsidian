@@ -28,4 +28,6 @@
 2. Учитывать правила и best practice оформления Markdown в странице [[Markdown best practice]]
 3. Репозиторий не должен содержать sensitive data
 
+> [!CAUTION]
+
 ---
