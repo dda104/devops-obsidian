@@ -10,7 +10,7 @@
 2. Скачать репозиторий
 
 ```shell
-git clone https://github.com/asdf-vm/asdf.git *path* --branch *version*
+git clone https://github.com/asdf-vm/asdf.git *Path* --branch *version*
 ```
 
 >[!INFO] `path` - Это путь куда склонируется репозиторий, в документации рекомендуется `~/.asdf 
