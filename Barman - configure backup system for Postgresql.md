@@ -1,3 +1,7 @@
+# 📖 Introduction
+
+
+
 # Преднастрой на Postgresql
 
 Требуется создать У.З. например `barman`
@@ -128,8 +132,9 @@ barman check postgres
 
 ---
 
-# Links
+# 🌎 Links
 
-[Configure guide](https://stormatics.tech/alis-planet-postgresql/postgresql-backup-and-recovery-management-using-barman)
+[Barman Website](https://pgbarman.org)
+[Configure Guide](https://stormatics.tech/alis-planet-postgresql/postgresql-backup-and-recovery-management-using-barman)
 
 ---
