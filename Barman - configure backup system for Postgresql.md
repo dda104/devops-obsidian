@@ -21,12 +21,14 @@ ALTER USER barman WITH SUPERUSER;
 wal_level = replica or logical
 max_wal_senders > 3
 max_replication_Slots > 3
-listen_addresses='*'
+listen_addresses='*IP_address_barman_host*'
 ```
+
+>[!INFO] `IP_address_barman_host` - Это IP хоста с Barman
 
 > [!INFO] max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
-Добавить пользователя в `/etc/postgres/*Version*/main/pg_hba.conf`
+Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
 
 ---
 
