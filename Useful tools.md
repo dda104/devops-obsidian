@@ -16,6 +16,6 @@
 
 - Mkisofs - Утилита для создания iso образов.
   Использование: `mkisofs -lJR -o *Output_image_name*.iso *Path_to_directory*`, где `Output_image_name` - Это название создаваемого образа, а `Path_to_directory` - Это путь до директории файлы которой требуется положить в iso образ.
-  Ссылки: []()
+  Ссылки: [Mkisofs man on opennet](https://www.opennet.ru/man.shtml?topic=mkisofs&category=8&russian=0)
 
 ---
