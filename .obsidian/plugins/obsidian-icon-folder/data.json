@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPostgresql",
       "LiPackage",
       "LiHardDrive",
       "LiImage",
-      "LiFileArchive",
-      "SiPython"
+      "LiFileArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,6 @@
   "Mdadm - Create linux raid.md": "LiHardDrive",
   "Telegram Bot - Create guide.md": "SiTelegram",
   "Virtualenv - Create guide.md": "SiPython",
-  "Useful tools.md": "LiPackage"
+  "Useful tools.md": "LiPackage",
+  "Barman - configure backup system for Postgresql.md": "SiPostgresql"
 }
