@@ -41,5 +41,5 @@
   "Telegram Bot - Create guide.md": "SiTelegram",
   "Virtualenv - Create guide.md": "SiPython",
   "Useful tools.md": "LiPackage",
-  "Barman - configure backup system for Postgresql.md": "SiPostgresql"
+  "Barman - configure backups for Postgresql.md": "SiPostgresql"
 }
