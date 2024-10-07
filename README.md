@@ -63,6 +63,6 @@
 
 # 🌎 Links
 
-[markdownguide.org](https://www.markdownguide.org/basic-syntax/)
+- [markdownguide.org](https://www.markdownguide.org/basic-syntax/)
 
 ---

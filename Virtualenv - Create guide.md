@@ -36,6 +36,6 @@ deactivate
 
 # 🌎 Links
 
-[PiPy virtualenv](https://pypi.org/project/virtualenv/)
+- [PiPy virtualenv](https://pypi.org/project/virtualenv/)
 
 ---
