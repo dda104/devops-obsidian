@@ -35,6 +35,7 @@ ollama pull *Model_name*
 # 🌎 Links
 
 - [Ollama website](https://ollama.com)
+- [Ollama Library](https://ollama.com/library)
 - [Continue plugin](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
 - [Add ollama in vscode guide by dev.to](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
 
