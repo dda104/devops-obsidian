@@ -53,7 +53,7 @@ apt -y install barman
 
 ## 🔧 Configure Barman
 
-Отредактировать `/etc/barmsn/barman.conf`
+Отредактировать `/etc/barman/barman.conf`
 
 ```ini
 barman_home = /mnt/backups
@@ -78,7 +78,7 @@ slot_name = barman_slot
 create_slot = auto
 ```
 
-Создать ~barman/.pgpass
+Создать `~barman/.pgpass`
 
 ```text
 10.0.1.1:5432:*:barman:barman
