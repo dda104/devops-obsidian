@@ -34,8 +34,6 @@ Download binary on [LM Studio Website](https://lmstudio.ai)
 
 Install Continue plugin for vscode or jetbrains
 
-
-
 ---
 
 # 🌎 Links
