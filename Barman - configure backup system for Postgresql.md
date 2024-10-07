@@ -40,7 +40,7 @@ listen_addresses='*IP_address_barman_host*'
 
 # Configure Barman on Debian 11
 
-## Install package
+## Install Package
 
 ```shell
 apt update
@@ -96,21 +96,21 @@ barman check postgres
 > [!INFO] Должно быть все OK кроме количества бэкапов
 
 ---
-# Эксплуатационные задачи
+# Usage
 
-## Просмотр списка бэкапов
+## Get List Existing Backups
 
 ```shell
 barman list-backup all
 ```
 
-## Ручной бэкап
+## Manual Backup
 
 ```shell
 barman backup postgres
 ```
 
-## Удалить бэкап
+## Delete Backup
 
 Получить id `barman list-backup all`
 
@@ -119,7 +119,7 @@ barman list-backup all
 barman delete *id*
 ```
 
-## Восстановление из бэкапа
+## Restore From Backup
 
 ```shell
 barman list-backup all
@@ -129,7 +129,7 @@ barman recover --remote-ssh-command "ssh postgres@*remote_ip*" postgres_server *
 > [!INFO] Если использовать другого пользователя придется выполнить
 > `chown postgres:postgres -R /*remote_path*/*version*/main`
 
-## Смена сервера с которого снимается backup
+## Change Target Server
 
 1. Изменить файлы `/etc/barman.d/postgres.conf` и `~barman/.pgpass`
 2. Пересоздать слот
