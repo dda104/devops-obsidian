@@ -16,6 +16,12 @@
 
 ---
 
+# ✉️ Msg_thread_id
+
+
+
+---
+
 # 🌎 Links
 
 [BotFather](https://t.me/BotFather)
