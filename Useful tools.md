@@ -11,6 +11,7 @@
   Ссылки: [Asdf Website](https://asdf-vm.com), [Asdf Github](https://github.com/asdf-vm/asdf.git).
 
 - Cloc - Утилита для подсчета количества строк кода
+  Использование: `cloc`
   Ссылки: [Cloc Website](https://cloc.sourceforge.net)
 
 ---
