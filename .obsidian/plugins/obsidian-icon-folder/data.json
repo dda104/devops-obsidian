@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHardDrive",
       "LiImage",
       "LiFileArchive",
       "SiPython",
-      "SiTelegram",
-      "❗"
+      "SiTelegram"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "Asdf.md": "SiPython",
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
-  "Virtualenv.md": "SiPython"
+  "Virtualenv.md": "SiPython",
+  "Create linux raid via Mdadm.md": "LiHardDrive"
 }
