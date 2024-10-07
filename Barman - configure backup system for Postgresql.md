@@ -4,7 +4,7 @@
 
 ---
 
-# Prepare Postgresql
+# 💼 Prepare Postgresql
 
 ## Create Role
 
@@ -130,6 +130,8 @@ barman recover --remote-ssh-command "ssh postgres@*remote_ip*" postgres_server *
 > `chown postgres:postgres -R /*remote_path*/*version*/main`
 
 ## Change Target Server
+
+Для смены сервера с которого снимается бэкап:
 
 1. Изменить файлы `/etc/barman.d/postgres.conf` и `~barman/.pgpass`
 2. Пересоздать слот
