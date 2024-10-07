@@ -25,11 +25,19 @@
 1. Добавить бота в чат с топиками
 2. Опционально создать virtualenv:    
 
-```python -m venv .venv; source .venv/bin/activate```
+```shell
+python -m venv .venv
+source .venv/bin/activate
+```
 
-3. Установить telebot: `pip install telebot`
+3. Установить telebot:
+
+```shell
+pip install telebot
+```
+
 4. Создать и запустить python скрипт
-   
+
 ```python
 import telebot
 
