@@ -19,13 +19,13 @@
 
 4. Настроить плагин `git`
 
-  1. Включить
-  2. Auto commit: 1
-  3. Auto pull: 1
-  4. Commit message auto commit: `*gitlab_user*: {{date}}`
-  5. Commit message manual commit: `*gitlab_user*: {{date}}`
-  6. Autor name: `*gitlab_user*`
-  7. Autor email: `*gitlab_mail*`
+  - Включить
+  - Auto commit: 1
+  - Auto pull: 1
+  - Commit message auto commit: `*gitlab_user*: {{date}}`
+  - Commit message manual commit: `*gitlab_user*: {{date}}`
+  - Autor name: `*gitlab_user*`
+  - Autor email: `*gitlab_mail*`
 
 ---
 
