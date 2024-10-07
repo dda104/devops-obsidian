@@ -10,4 +10,7 @@ Gitlab и Github поддерживают настройку зеркалиро�
 
 # 2️⃣ Configure
 
-Перейти в настGitlab Settings -> Repository
+1. Перейти в настройки Gitlab Settings -> Repository
+2. Добавить `Mirroring repositories`:
+  - Git repository URL ука
+3. 
