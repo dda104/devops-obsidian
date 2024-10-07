@@ -1,5 +1,13 @@
 # 🦙 Ollama
 
+## ⬇️ Install on linux
+
+```shell
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+## Get LLM
+
 ---
 
 # 📦 LM Studio
