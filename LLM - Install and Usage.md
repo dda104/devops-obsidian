@@ -12,7 +12,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull *Model_name*
 ```
 
->[!INFO] `Model_name` - Этол
+>[!INFO] `Model_name` - Это название модели, доступные можно найти на [Ollama Library](https://ollama.com/library)
 
 ---
 
