@@ -56,7 +56,7 @@ asdf global python *Version*
 
 # 🌎 Links
 
-[Asdf Website](https://asdf-vm.com)
-[Asdf Github](https://github.com/asdf-vm/asdf.git)
+- [Asdf Website](https://asdf-vm.com)
+- [Asdf Github](https://github.com/asdf-vm/asdf.git)
 
 ---

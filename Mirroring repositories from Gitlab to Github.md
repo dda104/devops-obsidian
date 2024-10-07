@@ -28,6 +28,6 @@ Gitlab и Github поддерживают настройку зеркалиро�
 
 # 🌎 Links
 
-[Youtube Configure Guide](https://www.youtube.com/watch?v=E4Y6A1HplWc)
+- [Youtube Configure Guide](https://www.youtube.com/watch?v=E4Y6A1HplWc)
 
 ---

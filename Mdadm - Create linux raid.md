@@ -55,6 +55,6 @@ mount /*Path_mount_point*
 
 # 🌍 Links
 
-[Mdadm xgu.ru](http://xgu.ru/wiki/mdadm)
+- [Mdadm xgu.ru](http://xgu.ru/wiki/mdadm)
 
 ---

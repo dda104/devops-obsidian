@@ -148,7 +148,7 @@ barman check postgres
 
 # 🌎 Links
 
-[Barman Website](https://pgbarman.org)
-[Configure Guide](https://stormatics.tech/alis-planet-postgresql/postgresql-backup-and-recovery-management-using-barman)
+- [Barman Website](https://pgbarman.org)
+- [Configure Guide](https://stormatics.tech/alis-planet-postgresql/postgresql-backup-and-recovery-management-using-barman)
 
 ---
