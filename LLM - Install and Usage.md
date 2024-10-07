@@ -26,6 +26,8 @@ ollama pull *Model_name*
 
 # 📦 LM Studio
 
+Download binary on 
+
 ---
 
 # ⏩ Continue plugin for IDE
