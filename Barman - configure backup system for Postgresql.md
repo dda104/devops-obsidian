@@ -17,6 +17,8 @@ ALTER USER *Role_name* WITH SUPERUSER;
 
 Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
 
+>[!INFO] `Version` - Это версия Postgresql
+
 ## Configure Postgresql
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
@@ -34,13 +36,11 @@ listen_addresses='*IP_address_barman_host*'
 
 > [!INFO] max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
-
-
 ---
 
-# Установка Barman на примере Debian 11
+# Configure Barman on Debian 11
 
-## Установка пакета
+## Install package
 
 ```shell
 apt update
@@ -51,7 +51,7 @@ apt update
 apt -y install barman
 ```
 
-## Изменение конфигурационных файлов
+## Configure Barman
 
 Отредактировать `/etc/barmsn/barman.conf`
 
