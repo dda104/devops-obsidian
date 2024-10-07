@@ -2,4 +2,10 @@
 
 ---
 
-# LM Studio
+# 📦 LM Studio
+
+---
+
+# 🌎 Links
+
+---
