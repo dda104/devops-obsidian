@@ -41,7 +41,7 @@ pip install telebot
 ```python
 import telebot
 
-TOKEN = '*YourBOTToken*'
+TOKEN = '*Token*'
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -57,14 +57,13 @@ def echo_message(message):
 bot.polling()
 ```
 
->[!INFO] `*YourBOTToken*` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
+>[!INFO] `Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
 
-5. Выполнить в топике `/start`
+5. Выполнить в требуемом топике `/start`
 
 >[!INFO] Должен появиться ответ на сообщение вида:
 >Chat ID этого чата: \*chat_id\*
 И message_thread_id: \*msg_thread_id\*
-
 
 ---
 
