@@ -23,8 +23,12 @@ cat /proc/mdstat
 Создание нового raid1 массива из свободных устройств `/dev/sda` и `/dev/sdb`
 
 ```shell
-mdadm --create --verbose /dev/md3 --level=1 --raid-devices=2 /dev/sd[a-b]
+mdadm --create --verbose /dev/*Raid_device_name* --level=1 --raid-devices=2 /dev/sd[a-b]
 ```
+
+>[!INFO] `Raid_device_name` - Это название нового девайса например: `md1`
+
+>[!INFO]
 
 ## 🚀 Automount via fstab
 
