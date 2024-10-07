@@ -5,7 +5,10 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "❗",
+      "✍"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -26,5 +29,8 @@
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false
-  }
+  },
+  "Write style.md": "✍",
+  "Markdown best practice.md": "✍",
+  "README.md": "❗"
 }
