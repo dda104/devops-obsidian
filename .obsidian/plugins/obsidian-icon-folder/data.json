@@ -35,9 +35,9 @@
   },
   "README.md": "❗",
   "Create Telegram Bot.md": "SiTelegram",
-  "Asdf.md": "SiPython",
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
   "Virtualenv.md": "SiPython",
-  "Create linux raid via Mdadm.md": "LiHardDrive"
+  "Create linux raid via Mdadm.md": "LiHardDrive",
+  "Install old version python via Asdf.md": "SiPython"
 }
