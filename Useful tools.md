@@ -15,6 +15,6 @@
   Ссылки: [Cloc Website](https://cloc.sourceforge.net)
 
 - Mkisofs - Утилита для создания iso образов
-  Использование: `mkisofs -lJR -o *Output_image*.iso *Path_to_directory*`, где ``
+  Использование: `mkisofs -lJR -o *Output_image_name*.iso *Path_to_directory*`, где `Output_image_name` - Это название создаваемого образа, а `Path_to_directory` - Это путь до директории файлы которой требуется 
 
 ---
