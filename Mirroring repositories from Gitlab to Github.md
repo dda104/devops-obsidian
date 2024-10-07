@@ -1,12 +1,12 @@
 # 📖 Introduction
 
-Github и Gitlab поддерживают настройку зеркалирования репозиториев
+Gitlab и Github поддерживают настройку зеркалирования репозиториев
 
 # 1️⃣ Prepare
 
-Create Gitalb and Github repositories.
+Создать Gitlab и Github репозитории.
 
-Create Github token for sync.
+Create Github token for sync with workflow right.
 
 # 2️⃣ Configure
 
