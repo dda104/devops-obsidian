@@ -18,4 +18,12 @@
   Использование: `mkisofs -lJR -o *Output_image_name*.iso *Path_to_directory*`, где `Output_image_name` - Это название создаваемого образа, а `Path_to_directory` - Это путь до директории файлы которой требуется положить в iso образ.
   Ссылки: [Mkisofs man on opennet](https://www.opennet.ru/man.shtml?topic=mkisofs&category=8&russian=0)
 
+- **Pur** - Утилита для обновления pip зависимостей в requrements.txt
+  Использование: `pur`
+  Ссылки: [Pur PyPi](https://pypi.org/project/pur/)
+
+- **sshs** - TUI ssh клиент
+  Использование: `sshs`
+  Ссылки: [Sshs Github](https://github.com/quantumsheep/sshs)
+
 ---
