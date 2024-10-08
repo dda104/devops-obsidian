@@ -12,7 +12,9 @@ Ansible - Это система управления кофигурациями.
 - name: Simple play
   hosts: all
   tasks:
-    - name:
+    - name: Hello World
+      ansible.builtin.debug:
+        msg: Hello World
 ```
 
 ---
