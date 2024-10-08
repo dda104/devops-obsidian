@@ -28,7 +28,7 @@ ALTER USER *Role_name* WITH SUPERUSER;
 >[!NOTE]
 > `Version` - Это версия Postgresql
 
-```ini
+```ini title=postgresql.conf
 wal_level = replica or logical
 max_wal_senders > 3
 max_replication_Slots > 3
@@ -59,7 +59,7 @@ apt -y install barman
 
 Отредактировать `/etc/barman/barman.conf`
 
-```ini
+```ini title=/etc/barman/barman.conf
 barman_home = /mnt/backups
 immediate_checkpoint = true
 retention_policy = RECOVERY WINDOW OF 1 WEEK
@@ -71,7 +71,7 @@ basebackup_retry_sleep = 30
 
 Создать `/etc/barman.d/postgres.conf`
 
-```ini
+```ini title=/etc/barman.d/postgres.conf
 [pg_server]
 description = "Streaming Backups using pg_basebackup and pg_recievewal for archiving wal files"
 conninfo = host=10.0.1.1 user=barman dbname=postgres port=5432
