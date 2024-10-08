@@ -55,6 +55,8 @@ Ansible Playbook может иметь произвольное название
 
 ## Templates
 
+## Roles
+
 ## Ansible.cfg
 
 ## Ansible-lint
