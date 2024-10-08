@@ -129,8 +129,7 @@ server1 ansible_host=20.20.20.20
 
 Простой пример структуры `group_vars/`:
 
-```shell
-group_vars/
+```shell title=group_vars/
 ├── all.yml
 └── web.yml
 ```
@@ -140,15 +139,14 @@ group_vars/
 
 Простой пример структуры `host_vars/`:
 
-```shell
-host_vars/
+```shell title=host_vars/
 ├── server1.yml
 └── server2.yml
 ```
 
 Внутри все файлы переменных между собой похожи, вот простой пример одного из них:
 
-```yaml
+```yaml title=all.yml
 ---
 base_install_pkgs_list:
   - vim
@@ -163,8 +161,7 @@ nginx_install: true
 
 Пример простой структуры `templates/`:
 
-```shell
-templates/
+```shell title=templates/
 ├── nginx.conf.j2
 └── nginx.service.j2
 ```
@@ -173,7 +170,7 @@ Jinja2 (j2) - Это шаблонизатор Python используемый в
 
 Простой пример шаблона:
 
-```
+```j2 title=template.j2
 nginx install = {{ nginx_install }}
 
 {% for i in base_install_pkgs_list %}
