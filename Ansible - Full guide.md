@@ -61,7 +61,17 @@ Ansible Playbook может иметь произвольное название
 
 ---
 
-# 
+#
+
+---
+
+# Structure Ansible Role
+
+---
+
+# Structure Ansible Collection
+
+---
 
 # Best practice
 
