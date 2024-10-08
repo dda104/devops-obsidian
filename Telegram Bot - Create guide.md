@@ -10,9 +10,11 @@
 2. В чате выполнить команду `/start`, на этом этапе никакого вывода быть не должно
 3. Открыть в браузере страницу `https://api.telegram.org/bot*Token*/getUpdates` и найти в json `"chat":{"id":*ID*,...`
 
->[!INFO] `*Token*` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
+>[!INFO] 
+>`*Token*` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
 
-> [!INFO] `ID` - Это Chat ID
+> [!INFO] 
+> `ID` - Это Chat ID
 
 ---
 
@@ -20,7 +22,8 @@
 
 Если в чате есть топики то может потребоваться знание `Msg_thread_id` для того чтобы бот мог писать в определенный топик
 
->[!INFO] Без указания `Msg_thread_id` Сообщения будут попадать в топик `General`
+>[!INFO] 
+>Без указания `Msg_thread_id` Сообщения будут попадать в топик `General`
 
 1. Добавить бота в чат с топиками
 2. Опционально создать virtualenv:    
@@ -57,11 +60,13 @@ def echo_message(message):
 bot.polling()
 ```
 
->[!INFO] `Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
+>[!INFO] 
+>`Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
 
 5. Выполнить в требуемом топике `/start`
 
->[!INFO] Должен появиться ответ на сообщение вида:
+>[!INFO] 
+>Должен появиться ответ на сообщение вида:
 >Chat ID этого чата: \*chat_id\*
 И message_thread_id: \*msg_thread_id\*
 
