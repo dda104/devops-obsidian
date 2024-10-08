@@ -13,17 +13,20 @@ CREATE user *Role_name* PASSWORD '*Role_password*';
 ALTER USER *Role_name* WITH SUPERUSER;
 ```
 
->[!INFO] `Role_name` - Это название роли, например: `barman`, `Role_password` - это пароль для роли
+>[!INFO]
+> `Role_name` - Это название роли, например: `barman`, `Role_password` - это пароль для роли
 
 Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
 
->[!INFO] `Version` - Это версия Postgresql
+>[!INFO]
+> `Version` - Это версия Postgresql
 
 ## 🔧 Configure Postgresql
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
 
->[!INFO] `Version` - Это версия Postgresql
+>[!INFO]
+> `Version` - Это версия Postgresql
 
 ```ini
 wal_level = replica or logical
@@ -32,9 +35,11 @@ max_replication_Slots > 3
 listen_addresses='*IP_address_barman_host*'
 ```
 
->[!INFO] `IP_address_barman_host` - Это IP хоста с Barman
+>[!INFO]
+> `IP_address_barman_host` - Это IP хоста с Barman
 
-> [!INFO] max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
+> [!INFO]
+>  max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
 ---
 
@@ -93,7 +98,8 @@ barman switch-xlog --force --archive postgres
 barman check postgres
 ```
 
-> [!INFO] Должно быть все OK кроме количества бэкапов
+> [!INFO]
+>  Должно быть все OK кроме количества бэкапов
 
 ---
 # 👨‍🏭 Usage
@@ -126,7 +132,8 @@ barman list-backup all
 barman recover --remote-ssh-command "ssh postgres@*remote_ip*" postgres_server *id_barman_backup* /*remote_path*/*version*/main
 ```
 
-> [!INFO] Если использовать другого пользователя придется выполнить
+> [!INFO]
+>  Если использовать другого пользователя придется выполнить
 > `chown postgres:postgres -R /*remote_path*/*version*/main`
 
 ## 🔧 Change Target Server
