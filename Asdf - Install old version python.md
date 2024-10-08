@@ -13,11 +13,11 @@
 git clone https://github.com/asdf-vm/asdf.git *Path* --branch *Version*
 ```
 
->[!INFO]
+>[!NOTE]
 > `Path` - Это путь куда склонируется репозиторий, в документации рекомендуется `~/.asdf 
-
->[!INFO]
+> 
 > `Version` - Это версия из 1 пункта
+
 
 3. Добавить автозапуск на примере bash
 
@@ -28,7 +28,7 @@ git clone https://github.com/asdf-vm/asdf.git *Path* --branch *Version*
 } >> ~/.bashrc
 ```
 
->[!INFO]
+>[!NOTE]
 > `Path` - Это путь до репозитория в файловой системе
 
 ---
@@ -47,7 +47,7 @@ asdf plugin-add python
 asdf install python *Version*
 ```
 
-> [!INFO]
+> [!NOTE]
 >  `Version` - Это версия python например `3.11.0`
 
 3. Переключиться на установленную версию:
