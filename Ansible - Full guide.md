@@ -128,7 +128,7 @@ base_install_pkgs_list:
 nginx_install: true
 ```
 
-## Templates
+## 🧩 Templates
 
 Дикетория `templates/` в структуре Ansible похожа на `files/`, разве, что `templates/` предназначена для шаблонизированных файлов `.j2`.
 
@@ -152,7 +152,7 @@ install package {{ i }}
 {% endfor %}
 ```
 
-## Roles
+## 📚 Roles
 
 ---
 
