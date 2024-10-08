@@ -9,12 +9,12 @@
 Посмотреть последнюю версию во вкладке tags на [Github](https://github.com/asdf-vm/asdf.git)
 
 ```shell
-git clone https://github.com/asdf-vm/asdf.git <Path to clone> --branch <Git tag>
+git clone https://github.com/asdf-vm/asdf.git <Path_to_clone> --branch <Git_tag>
 ```
 
 ```shell title=~/.bashrc
-source "<Path git repository>/asdf.sh"
-source "<Path git repository>/completions/asdf.bash"
+source "<Path_git_repository>/asdf.sh"
+source "<Path_git_repository>/completions/asdf.bash"
 ```
 
 ---
@@ -23,8 +23,8 @@ source "<Path git repository>/completions/asdf.bash"
 
 ```shell
 asdf plugin-add python
-asdf install python <Semantic version>
-asdf global python <Semantic version>
+asdf install python <Semantic_version>
+asdf global python <Semantic_version>
 ```
 
 ---
