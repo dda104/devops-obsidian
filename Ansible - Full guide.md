@@ -130,6 +130,8 @@ nginx_install: true
 
 ## Templates
 
+Дикетория `templates/` в структуре Ansible похожа на `files/`
+
 ## Roles
 
 ---
