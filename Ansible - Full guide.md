@@ -95,6 +95,8 @@ files/
 
 ## Group and Host vars
 
+В Ansible существуют директории host_vars и group_vars нужны они для большей гибкости использования Ansible, 
+
 ## Templates
 
 ## Roles
