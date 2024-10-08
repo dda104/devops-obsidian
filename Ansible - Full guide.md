@@ -66,7 +66,8 @@ Ansible Inventory - Это файл со списком хостов в форм
 
 ```ini
 [web]
-server1
+server1 ansible_ssh_host=10.10.10.10
+server1 ansible_ssh_host=20.20.20.20
 ```
 
 ## Files
