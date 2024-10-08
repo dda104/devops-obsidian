@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiReplace",
       "SiLinux",
       "LiBrain",
       "SiGit",
-      "SiPostgresql",
-      "LiPackage"
+      "SiPostgresql"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,6 @@
   "Barman - configure backups for Postgresql.md": "SiPostgresql",
   "Mirroring repositories from Gitlab to Github.md": "SiGit",
   "LLM - Install and Usage.md": "LiBrain",
-  "Sudo.md": "SiLinux"
+  "Sudo.md": "SiLinux",
+  "Escaping http special character.md": "LiReplace"
 }
