@@ -4,7 +4,9 @@ Ansible - Это система управления кофигурациями.
 
 # 🤔 Structure of Ansible
 
+## 📚 Example Structure Ansible
 
+Ниже приведен общий пример
 
 ## 📑 Ansible Playbook
 
