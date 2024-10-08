@@ -97,7 +97,7 @@ barman switch-xlog --force --archive postgres
 barman check postgres
 ```
 
-> [!N]
+> [!NOTE]
 >  Должно быть все OK кроме количества бэкапов
 
 ---
@@ -131,7 +131,7 @@ barman list-backup all
 barman recover --remote-ssh-command "ssh postgres@*remote_ip*" postgres_server *id_barman_backup* /*remote_path*/*version*/main
 ```
 
-> [!INFO]
+> [!NOTE]
 >  Если использовать другого пользователя придется выполнить
 > `chown postgres:postgres -R /*remote_path*/*version*/main`
 
