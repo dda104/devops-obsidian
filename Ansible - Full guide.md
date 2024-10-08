@@ -51,6 +51,8 @@ Ansible Playbook может иметь произвольное название
 
 ## Inventory
 
+Ansible Inventory - Это файл со списком хостов в формате ini или yaml, их может быть несколько, могут находиться в произвольной 
+
 ## Files
 
 ## Group and Host vars
@@ -82,6 +84,8 @@ Ansible Playbook может иметь произвольное название
 ## Yamllint
 
 ## Ansible doctor
+
+## Ansible galaxy
 
 ---
 
