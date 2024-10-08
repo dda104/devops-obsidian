@@ -81,7 +81,9 @@ server1 ansible_host=10.10.10.10
 server1 ansible_host=20.20.20.20
 ```
 
-## Files
+## 🗃️ Files
+
+files/ - Это директория со статичными файлами, может иметь 
 
 ## Group and Host vars
 
