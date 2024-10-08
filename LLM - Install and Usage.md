@@ -55,7 +55,7 @@ ollama pull *Model_name*
 
 Пример конфигурации:
 
-```json
+```json title=configuration
 {
   "models": [
     {

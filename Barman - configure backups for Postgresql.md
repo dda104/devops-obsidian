@@ -84,7 +84,7 @@ create_slot = auto
 
 Создать `~barman/.pgpass`
 
-```text
+```text title=~barman/.pgpass
 10.0.1.1:5432:*:barman:barman
 ```
 
