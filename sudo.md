@@ -17,8 +17,6 @@ sudo dnf up -y
 >[!NOTE]
 > Ansible требует sudo без пароля для используемого пользователя на целевом хосте
 
-Создать конфигурационный файл
-
 ```text title=/etc/sudoers.d/<Username>
 <Username> ALL=(ALL) NOPASSWD:ALL
 ```

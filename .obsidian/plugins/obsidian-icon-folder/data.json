@@ -43,8 +43,8 @@
   "Barman - configure backups for Postgresql.md": "SiPostgresql",
   "Mirroring repositories from Gitlab to Github.md": "SiGit",
   "LLM - Install and Usage.md": "LiBrain",
-  "Sudo.md": "SiLinux",
   "Escaping http special character.md": "LiReplace",
   "Ansible - Full guide.md": "SiAnsible",
-  "README.md": "❗"
+  "README.md": "❗",
+  "sudo.md": "SiLinux"
 }
