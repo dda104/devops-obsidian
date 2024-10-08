@@ -12,16 +12,16 @@ curl -fsSL https://ollama.com/install.sh | sh
 ## 🤖 Get LLM
 
 ```shell
-ollama pull *Model_name*
+ollama pull <Model_name>
 ```
 
 >[!NOTE]
-> `Model_name` - Это название модели, доступные можно найти на [Ollama Library](https://ollama.com/library)
+> Доступные модели можно найти на [Ollama Library](https://ollama.com/library)
 
 ## 🏃 Run LLM
 
 ```shell
-ollama pull *Model_name*
+ollama pull <Model_name>
 ```
 
 >[!NOTE]
