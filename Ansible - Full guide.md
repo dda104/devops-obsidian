@@ -140,7 +140,13 @@ templates/
 └── nginx.service.j2
 ```
 
-Jinja2 (j2) - Это шаблонизатор Python используемый в Ansible
+Jinja2 (j2) - Это шаблонизатор Python используемый в Ansible.
+
+Простой пример шаблона:
+
+```
+{% for i in  %}
+```
 
 ## Roles
 
