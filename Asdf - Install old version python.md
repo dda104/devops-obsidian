@@ -1,12 +1,12 @@
 # 📖 Introduction
 
-**Asdf** - Это инструмент на linux для установки в параллель нескольких версий одного языка программирования
+- **asdf** - Это инструмент на linux для установки в параллель нескольких версий одного языка программирования
 
 ---
 
 # ⬇️ Install
 
-Посмотреть последнюю версию во вкладке tags на [Github](https://github.com/asdf-vm/asdf.git)
+Посмотреть последнюю версию во вкладке tags на [Github asdf](https://github.com/asdf-vm/asdf.git)
 
 ```shell
 git clone https://github.com/asdf-vm/asdf.git <Path_to_clone> --branch <Git_tag>
@@ -31,7 +31,7 @@ asdf global python <Semantic_version>
 
 # 🌎 Links
 
-- [Asdf Website](https://asdf-vm.com)
-- [Asdf Github](https://github.com/asdf-vm/asdf.git)
+- [asdf Website](https://asdf-vm.com)
+- [asdf Github](https://github.com/asdf-vm/asdf.git)
 
 ---
