@@ -33,7 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "README.md": "❗",
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
   "Asdf - Install old version python.md": "SiPython",
@@ -46,5 +45,6 @@
   "LLM - Install and Usage.md": "LiBrain",
   "Sudo.md": "SiLinux",
   "Escaping http special character.md": "LiReplace",
-  "Ansible - Full guide.md": "SiAnsible"
+  "Ansible - Full guide.md": "SiAnsible",
+  "README-en.md": "❗"
 }
