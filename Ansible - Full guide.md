@@ -88,7 +88,9 @@ server1 ansible_host=20.20.20.20
 Простой пример структуры `files/`
 
 ```shell
-
+files/
+├── nginx.conf
+└── nginx.service
 ```
 
 ## Group and Host vars
