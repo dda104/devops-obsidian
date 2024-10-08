@@ -13,17 +13,12 @@
 git clone https://github.com/asdf-vm/asdf.git <Path to clone> --branch <Git tag>
 ```
 
-3. Добавить автозапуск в bashrc, zshrc, fishrc...
+3. Добавить автозапуск
 
-```shell
-{
-    echo 'source "*Path*/asdf.sh"'
-    echo 'source "*Path*/completions/asdf.bash"'
-} >> ~/.bashrc
+```shell title=~/.bashrc
+source "<Path git repository>/asdf.sh"
+source "<Path git repository>/completions/asdf.bash"
 ```
-
->[!NOTE]
-> `Path` - Это путь до репозитория в файловой системе
 
 ---
 
