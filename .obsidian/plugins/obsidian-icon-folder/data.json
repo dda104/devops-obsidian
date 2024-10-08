@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBrain",
       "SiGit",
       "SiPostgresql",
       "LiPackage",
-      "LiHardDrive",
-      "LiImage"
+      "LiHardDrive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "Virtualenv - Create guide.md": "SiPython",
   "Useful tools.md": "LiPackage",
   "Barman - configure backups for Postgresql.md": "SiPostgresql",
-  "Mirroring repositories from Gitlab to Github.md": "SiGit"
+  "Mirroring repositories from Gitlab to Github.md": "SiGit",
+  "LLM - Install and Usage.md": "LiBrain"
 }
