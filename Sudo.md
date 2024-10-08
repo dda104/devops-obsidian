@@ -4,7 +4,7 @@ Sudo позволяет использовать права суперпольз
 
 Например:
 
-```shell title=usage
+```shell
 sudo dnf install vim -y
 ```
 
