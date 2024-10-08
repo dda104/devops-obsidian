@@ -4,7 +4,7 @@
 
 ![[dogs.jpg|300]]
 
-![Dogs|300](imgs/dogs.jpg|300)
+![Dogs|300](imgs/dogs.jpg)
 
 ---
 
