@@ -55,7 +55,7 @@ ollama pull *Model_name*
 
 Пример конфигурации:
 
-```json title=configuration
+```json title=config.json
 {
   "models": [
     {
@@ -81,7 +81,7 @@ ollama pull *Model_name*
 
 Пример конфигурации:
 
-```json
+```json title=config.json
 {
   "models": [
     {
