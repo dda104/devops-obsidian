@@ -9,7 +9,18 @@ Ansible - Это система управления кофигурациями.
 Ниже приведен общий пример структуры Ansible, она может выглядить иначе.
 
 ```shell
-
+ansible_structure
+├── ansible.cfg
+├── ansible_playbook.yml
+├── files
+├── group_vars
+├── host_vars
+├── inventory.ini
+├── inventory.yml
+├── LICENSE
+├── README.md
+├── roles
+└── templates
 ```
 
 Далее элементы структуры будут описаны подробнее.
