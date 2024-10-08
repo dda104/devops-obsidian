@@ -50,11 +50,29 @@ ollama pull *Model_name*
 
 ## 🦙 Ollama configuration
 
-```shell
-
+```json
+{
+  "models": [
+    {
+      "apiBase": "http://localhost:11434/",
+      "model": "codellama",
+      "provider": "ollama",
+      "title": "CodeLlama"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Starcoder2 3b",
+    "provider": "ollama",
+    "model": "starcoder2:3b"
+  },
+...
 ```
 
 ## 📦 LM Studio configuration
+
+```shell
+
+```
 
 ---
 
@@ -62,6 +80,7 @@ ollama pull *Model_name*
 
 - [Ollama website](https://ollama.com)
 - [Ollama Library](https://ollama.com/library)
+- [LM Studio Website](https://lmstudio.ai)
 - [Continue plugin](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
 - [Add ollama in vscode guide by dev.to](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
 
