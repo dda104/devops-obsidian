@@ -148,6 +148,10 @@ templates/
 
 ---
 
+# Jinja2
+
+---
+
 # Structure Ansible Role
 
 ---
