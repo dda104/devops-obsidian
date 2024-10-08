@@ -61,7 +61,7 @@ Ansible Playbook может иметь произвольное название
 
 ---
 
-#
+# Ansible Tasks
 
 ---
 
@@ -74,8 +74,6 @@ Ansible Playbook может иметь произвольное название
 ---
 
 # Best practice
-
-## Ansible galaxy
 
 ## Ansible.cfg
 
