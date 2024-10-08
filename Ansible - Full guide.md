@@ -16,11 +16,11 @@ Ansible - Это система управления кофигурациями.
 ├── group_vars/ - Директория с переменными для групп узлов
 ├── host_vars/ - Директория с переменными для отдельных узлов
 ├── inventory.ini - Список узлов в формате .ini
-├── inventory.yml
-├── LICENSE
-├── README.md
-├── roles/
-├── templates/
+├── inventory.yml - Список узлов в формате .yml
+├── LICENSE - Лицензия
+├── README.md - Документация
+├── roles/ - Директория с ролями Ansible
+├── templates/ - Директория с шаблонами
 └── .yamllint
 ```
 
