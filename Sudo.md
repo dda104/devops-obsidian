@@ -17,11 +17,8 @@ sudo dnf install vim -y
 
 Создать конфигурационный файл
 
-```text title=/etc/sudoers.d/*User_name*
-*User_name* ALL=(ALL) NOPASSWD:ALL
+```text title=/etc/sudoers.d/<Username>
+<Username> ALL=(ALL) NOPASSWD:ALL
 ```
-
-> [!NOTE] 
-> `User_name` - Это имя пользователя для которого необходимо настроить доступ sudo без пароля, например: `user`
 
 ---
