@@ -53,6 +53,8 @@ Ansible Playbook может иметь произвольное название
 
 ## Files
 
+## Group and Host vars
+
 ## Templates
 
 ## Roles
