@@ -78,8 +78,27 @@ ollama pull *Model_name*
 
 Пример конфигурации:
 
-```shell
-
+```json
+{
+  "models": [
+    {
+      "apiBase": "http://localhost:1234/v1",
+      "model": "autodetect",
+      "provider": "lmstudio",
+      "title": "codestral"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "codestral",
+    "provider": "lmstudio",
+    "model": "autodetect",
+    "apiBase": "http://localhost:1234/v1"
+  },
+  "tabAutocompleteOptions": {
+    "debounceDelay": 500,
+    "maxPromptTokens": 100
+  },
+  ...
 ```
 
 ---
