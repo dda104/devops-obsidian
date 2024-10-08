@@ -140,6 +140,8 @@ templates/
 └── nginx.service.j2
 ```
 
+`.j2` - Это расширение Jinja2, простой пример
+
 ## Roles
 
 ---
