@@ -3,5 +3,6 @@
   "textFontFamily": "JetBrainsMono Nerd Font",
   "enabledCssSnippets": [
     "autowidth"
-  ]
+  ],
+  "theme": "obsidian"
 }
