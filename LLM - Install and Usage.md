@@ -48,6 +48,14 @@ ollama pull *Model_name*
 
 Перейти в конфигурацию плагина
 
+## 🦙 Ollama configuration
+
+```shell
+
+```
+
+## 📦 LM Studio configuration
+
 ---
 
 # 🌎 Links
