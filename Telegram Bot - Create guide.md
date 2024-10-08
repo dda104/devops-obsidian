@@ -40,7 +40,7 @@ pip install pyTelegramBotAPI
 
 4. Создать и запустить python скрипт
 
-```python
+```python title=main.py
 import telebot
 
 TOKEN = '*Token*'
