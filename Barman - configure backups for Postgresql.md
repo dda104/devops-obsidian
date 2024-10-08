@@ -13,19 +13,19 @@ CREATE user *Role_name* PASSWORD '*Role_password*';
 ALTER USER *Role_name* WITH SUPERUSER;
 ```
 
->[!INFO]
+>[!NOTE]
 > `Role_name` - Это название роли, например: `barman`, `Role_password` - это пароль для роли
 
 Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
 
->[!INFO]
+>[!NOTE]
 > `Version` - Это версия Postgresql
 
 ## 🔧 Configure Postgresql
 
 Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
 
->[!INFO]
+>[!NOTE]
 > `Version` - Это версия Postgresql
 
 ```ini
@@ -35,11 +35,10 @@ max_replication_Slots > 3
 listen_addresses='*IP_address_barman_host*'
 ```
 
->[!INFO]
+>[!NOTE]
 > `IP_address_barman_host` - Это IP хоста с Barman
-
-> [!INFO]
->  max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
+> 
+> max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
 
 ---
 
@@ -98,7 +97,7 @@ barman switch-xlog --force --archive postgres
 barman check postgres
 ```
 
-> [!INFO]
+> [!N]
 >  Должно быть все OK кроме количества бэкапов
 
 ---
