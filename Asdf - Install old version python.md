@@ -21,26 +21,10 @@ source "<Path git repository>/completions/asdf.bash"
 
 # 🐍 Install old version python
 
-1. Установить python plugin в asdf:
-
 ```shell
 asdf plugin-add python
-asdf install python <Semantic Version>
-```
-
-2. Установить требуемую версию python:
-
-```shell
-
-```
-
-> [!NOTE]
->  `Version` - Это версия python например `3.11.0`
-
-3. Переключиться на установленную версию:
-
-```shell
-asdf global python *Version*
+asdf install python <Semantic version>
+asdf global python <Semantic version>
 ```
 
 ---
