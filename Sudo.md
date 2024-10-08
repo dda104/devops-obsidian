@@ -15,7 +15,8 @@ sudo dnf install vim -y
 >[!NOTE]
 > Ansible требует sudo без пароля для используемого пользователя на целевом хосте
 
-Создать 
+Создать конфигурационный файл
+
 ```text title=/etc/sudoers.d/*User_name*
 *User_name* ALL=(ALL) NOPASSWD:ALL
 ```
