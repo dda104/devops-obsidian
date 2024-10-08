@@ -65,7 +65,8 @@ Ansible Inventory - Это файл со списком хостов в форм
 Пример простого `inventory.ini`:
 
 ```ini
-[]
+[web]
+server1
 ```
 
 ## Files
