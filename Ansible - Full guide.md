@@ -4,11 +4,14 @@ Ansible - Это система управления кофигурациями.
 
 # 🤔 Structure of Ansible
 
+## 📑 Ansible Playbook
+
 Основной исполняемый файл в Ansible - Это ansible playbook.
 
 Структурно плейбук - Это набор плеев, пример Ansible Play:
 
 ```yaml
+---
 - name: Simple play
   hosts: all
   tasks:
