@@ -5,5 +5,13 @@ Sudo позволяет использовать права суперпольз
 Например:
 
 ```shell
-
+sudo dnf install vim -y
 ```
+
+---
+
+# 😎 Use sudo without entry password
+
+>[!INFO] Ansible
+
+---
