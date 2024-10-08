@@ -59,7 +59,7 @@ Ansible - Это система управления кофигурациями.
 
 Структурно плейбук - Это набор плеев, пример Ansible Play:
 
-```yaml
+```yaml title=playbook.yml
 ---
 - name: Simple play
   hosts: all
@@ -85,7 +85,7 @@ Ansible Inventory - Это файл со списком хостов в форм
 >[!TIP]
 > Хорошей практикой является использование yaml Inventory
 
-```yaml
+```yaml title=inventory.yml
 ---
 all:
   hosts:
@@ -103,7 +103,7 @@ all:
 
 Пример простого `inventory.ini`:
 
-```ini
+```ini title=inventory.ini
 [web]
 server1 ansible_host=10.10.10.10
 server1 ansible_host=20.20.20.20
@@ -115,8 +115,7 @@ server1 ansible_host=20.20.20.20
 
 Простой пример структуры `files/`
 
-```shell
-files/
+```shell title=files/
 ├── nginx.conf
 └── nginx.service
 ```
