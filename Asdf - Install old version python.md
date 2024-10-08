@@ -10,16 +10,10 @@
 2. Скачать репозиторий
 
 ```shell
-git clone https://github.com/asdf-vm/asdf.git <Path to clone> --branch <>
+git clone https://github.com/asdf-vm/asdf.git <Path to clone> --branch <Git tag>
 ```
 
->[!NOTE]
-> `Path` - Это путь куда склонируется репозиторий, в документации рекомендуется `~/.asdf 
-> 
-> `Version` - Это версия из 1 пункта
-
-
-3. Добавить автозапуск на примере bash
+3. Добавить автозапуск в bashrc, zshrc, fishrc...
 
 ```shell
 {
