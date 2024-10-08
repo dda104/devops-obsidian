@@ -177,13 +177,9 @@ install package {{ i }}
 
 ### Jinja2
 
-## 📚 Roles
+## 📚 Structure Ansible Role
 
 Ansible Role - Структура каталогов содержащая подготовленные таски для переиспользования
-
----
-
-# Structure Ansible Role
 
 Общий пример структуры Ansible роли:
 
@@ -199,9 +195,9 @@ ansible_role/
 └── templates/ - Шаблоны
 ```
 
-## Ansible Tasks
+### Ansible Tasks
 
-## Molecule
+### Molecule
 
 ---
 
