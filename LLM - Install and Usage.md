@@ -21,11 +21,8 @@ ollama pull <Model_name>
 ## 🏃 Run LLM
 
 ```shell
-ollama pull <Model_name>
+ollama run <Model_name>
 ```
-
->[!NOTE]
-> `Model_name` - Это название модели, доступные можно найти на [Ollama Library](https://ollama.com/library)
 
 ---
 
