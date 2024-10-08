@@ -140,7 +140,7 @@ templates/
 └── nginx.service.j2
 ```
 
-`.j2` - Это расширение Jinja2, простой пример
+Jinja2 (j2) - Это шаблонизатор Python используемый в Ansible
 
 ## Roles
 
