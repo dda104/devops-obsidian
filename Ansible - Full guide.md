@@ -145,7 +145,11 @@ Jinja2 (j2) - Это шаблонизатор Python используемый в
 Простой пример шаблона:
 
 ```
-{% for i in  %}
+nginx install = {{ nginx_install }}
+
+{% for i in base_install_pkgs %}
+
+{% endfor %}
 ```
 
 ## Roles
