@@ -50,6 +50,8 @@ ollama pull *Model_name*
 
 ## 🦙 Ollama configuration
 
+Пример конфигурации:
+
 ```json
 {
   "models": [
@@ -65,10 +67,16 @@ ollama pull *Model_name*
     "provider": "ollama",
     "model": "starcoder2:3b"
   },
+  "tabAutocompleteOptions": {
+    "debounceDelay": 500,
+    "maxPromptTokens": 100
+  },
 ...
 ```
 
 ## 📦 LM Studio configuration
+
+Пример конфигурации:
 
 ```shell
 
