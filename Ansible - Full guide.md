@@ -59,11 +59,17 @@ Ansible Playbook может иметь произвольное название
 
 ## Roles
 
+---
+
+# Best practice
+
 ## Ansible.cfg
 
 ## Ansible-lint
 
 ## Yamllint
+
+## Ansible
 
 ---
 
