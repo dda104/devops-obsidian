@@ -6,14 +6,11 @@
 
 # ⬇️ Install
 
-1. Посмотреть последнюю версию во вкладке tags на [Github](https://github.com/asdf-vm/asdf.git)
-2. Скачать репозиторий
+Посмотреть последнюю версию во вкладке tags на [Github](https://github.com/asdf-vm/asdf.git)
 
 ```shell
 git clone https://github.com/asdf-vm/asdf.git <Path to clone> --branch <Git tag>
 ```
-
-3. Добавить автозапуск
 
 ```shell title=~/.bashrc
 source "<Path git repository>/asdf.sh"
@@ -28,12 +25,13 @@ source "<Path git repository>/completions/asdf.bash"
 
 ```shell
 asdf plugin-add python
+asdf install python <Semantic Version>
 ```
 
 2. Установить требуемую версию python:
 
 ```shell
-asdf install python *Version*
+
 ```
 
 > [!NOTE]
