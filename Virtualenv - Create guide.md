@@ -14,7 +14,7 @@
 python3 -m venv *venv_name*
 ```
 
->[!INFO] 
+>[!NOTE] 
 >`venv_name` - Это произвольное название виртуального окружения, часто используется `.venv`
 
 >[!TIP] 
@@ -32,7 +32,7 @@ source *venv_name*/bin/activate
 deactivate
 ```
 
-> [!INFO]
+> [!NOTE]
 > В vscode эта команда недоступна
 
 ---
