@@ -19,9 +19,9 @@ source "<Path_git_repository>/completions/asdf.bash"
 
 ---
 
-# 🐍 Install old version python
+# 👨‍🏭 Usage
 
-```shell
+```shell title=Python
 asdf plugin-add python
 asdf install python <Semantic_version>
 asdf global python <Semantic_version>
