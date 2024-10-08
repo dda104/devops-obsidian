@@ -28,6 +28,8 @@ ollama pull *Model_name*
 
 Скачать пакет под свою систему на [LM Studio Website](https://lmstudio.ai)
 
+Во вкладке Discover 
+
 ---
 
 # ⏩ Continue plugin for IDE

@@ -143,7 +143,6 @@ barman recieve-wal --create-slot postgres
 barman check postgres
 ```
 
-
 ---
 
 # 🌎 Links
