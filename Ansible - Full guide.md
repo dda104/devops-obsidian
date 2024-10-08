@@ -12,15 +12,15 @@ Ansible - Это система управления кофигурациями.
 ├── ansible.cfg - Конфигурационный файл Ansible
 ├── .ansible-lint - Настройки Ansible линтера
 ├── ansible_playbook.yml - Плейбук
-├── files/
-├── group_vars/
-├── host_vars/
-├── inventory.ini
+├── files/ - Директория со статичными файлами
+├── group_vars/ - Директория с переменными для групп узлов
+├── host_vars/ - Директория с переменными для отдельных узлов
+├── inventory.ini - Список узлов в формате .ini
 ├── inventory.yml
 ├── LICENSE
 ├── README.md
-├── roles
-├── templates
+├── roles/
+├── templates/
 └── .yamllint
 ```
 
