@@ -112,8 +112,12 @@ group_vars/
 Простой пример структуры `host_vars/`:
 
 ```shell
-
+host_vars/
+├── server1.yml
+└── server2.yml
 ```
+
+Внутри все файлы перемен
 
 ## Templates
 
