@@ -61,7 +61,11 @@ Ansible Playbook может иметь произвольное название
 
 ---
 
+# 
+
 # Best practice
+
+## Ansible galaxy
 
 ## Ansible.cfg
 
@@ -69,7 +73,7 @@ Ansible Playbook может иметь произвольное название
 
 ## Yamllint
 
-## Ansible
+## Ansible doctor
 
 ---
 
