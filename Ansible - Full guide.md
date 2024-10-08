@@ -130,7 +130,9 @@ nginx_install: true
 
 ## Templates
 
-Дикетория `templates/` в структуре Ansible похожа на `files/`
+Дикетория `templates/` в структуре Ansible похожа на `files/`, разве, что `templates/` предназначена для шаблонизированных файлов `.j2`.
+
+Пример простой структуры `templates/`
 
 ## Roles
 
