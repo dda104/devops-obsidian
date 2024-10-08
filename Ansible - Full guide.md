@@ -1,3 +1,9 @@
 # 📖 Introduction
 
-Ansible - Это
+Ansible - Это система управления кофигурациями.
+
+---
+
+# 🌍 Links
+
+---
