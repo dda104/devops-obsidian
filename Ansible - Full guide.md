@@ -59,11 +59,18 @@ Ansible Inventory - Это файл со списком хостов в форм
 
 ```yaml
 ---
-web:
-  server1:
-    ansible_host: 10.10.10.10
-  server2:
-    ansible_host: 20.20.20.20
+all:
+  hosts:
+    server1:
+      ansible_host: 10.10.10.10
+    server2:
+      ansible_host: 20.20.20.20
+
+  children:
+    web:
+      hosts:
+        server1:
+        server2:
 ```
 
 Пример простого `inventory.ini`:
