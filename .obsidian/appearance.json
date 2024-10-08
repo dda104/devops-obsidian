@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "autowidth"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font"
 }
