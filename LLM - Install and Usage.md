@@ -1,5 +1,7 @@
 # 🦙 Ollama
 
+>[!INFO] LM Studio показывает себя стабильнее в работе
+
 ## ⬇️ Install on linux
 
 ```shell
@@ -43,6 +45,8 @@ ollama pull *Model_name*
 # ⏩ Continue plugin for IDE
 
 Установить Continue плагин для vscode или jetbrains
+
+Перейти в конфигурацию плагина
 
 ---
 
