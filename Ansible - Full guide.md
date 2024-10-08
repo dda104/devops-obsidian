@@ -49,9 +49,17 @@ Ansible Playbook может иметь произвольное название
 
 >[!TIP] Хорошей практикой является использование разделителя `_` и расширение `.yml`
 
+## Inventory
 
+## Files
+
+## Templates
 
 ## Ansible.cfg
+
+## Ansible-lint
+
+## Yamllint
 
 ---
 
