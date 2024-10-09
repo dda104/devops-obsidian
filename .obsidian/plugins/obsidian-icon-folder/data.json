@@ -39,7 +39,6 @@
   "Escaping http special character.md": "LiReplace",
   "README.md": "❗",
   "sudo.md": "SiLinux",
-  "mdadm - Create linux raid.md": "LiHardDrive",
   "Mirroring Git repositories.md": "SiGit",
   "License Templates.md": "LiList",
   "venv.md": "SiPython",
@@ -47,5 +46,6 @@
   "LLM via Ollama and LM Studio.md": "LiBrain",
   "asdf.md": "SiPython",
   "barman.md": "SiPostgresql",
-  "ansible.md": "SiAnsible"
+  "ansible.md": "SiAnsible",
+  "mdadm.md": "LiHardDrive"
 }
