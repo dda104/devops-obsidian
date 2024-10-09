@@ -32,7 +32,13 @@ firewall-cmd --reload
 Зашифровать файл:
 
 ```shell
-openssl enc -aes-256-cbc -salt -pbkdf2 -in <File_path> -out <Output_file.enc> -k <Password>
+openssl enc -aes-256-cbc -salt -pbkdf2 -in <File_path> -out <Encrypted_file> -k <Password>
+```
+
+Расшифровать файл:
+
+```shell
+openssl enc -d -aes-256-cbc -pbkdf2 -in <Encrypted_file> -k <Password>
 ```
 
 ---
