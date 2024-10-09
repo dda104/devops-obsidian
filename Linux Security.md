@@ -27,7 +27,13 @@ firewall-cmd --reload
 
 ---
 
-# Encrypting v
+# Encrypting via Openssh
+
+Зашифровать файл:
+
+```shell
+openssl enc -aes-256-cbc -salt -pbkdf2 -in <File_path> -out <Output_file.enc> -k <Password>
+```
 
 ---
 
