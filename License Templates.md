@@ -1,4 +1,4 @@
-# Prepared text 
+# Prepared texts LICENSE files
 
 ```text title=Unlicense
 This is free and unencumbered software released into the public domain.
@@ -26,3 +26,5 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
 ```
+
+---
