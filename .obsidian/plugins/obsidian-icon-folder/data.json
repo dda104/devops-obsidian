@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlertTriangle",
       "SiGnubash",
       "LiList",
       "SiAnsible",
-      "LiReplace",
-      "SiLinux"
+      "LiReplace"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,5 +48,6 @@
   "Escaping HTTP Special Character.md": "LiReplace",
   "Mirroring Git Repositories.md": "SiGit",
   "Useful Tools.md": "LiPackage",
-  "Shell Scripting.md": "SiGnubash"
+  "Shell Scripting.md": "SiGnubash",
+  "Linux Security.md": "LiAlertTriangle"
 }
