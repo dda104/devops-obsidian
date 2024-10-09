@@ -2,6 +2,8 @@
 
 ## Examples
 
+Вывод 
+
 ```shell title=for
 for i in {1..99}
 do
@@ -9,12 +11,16 @@ do
 done
 ```
 
+Вывод четных чисел:
+
 ```shell title=if
 if (( $1 % 2 == 0 ))
 then
 	echo And is also an even number.
 fi
 ```
+
+Чтение содержимого файла в переменную:
 
 ```shell
 VARIABLE=$(<file_path)
