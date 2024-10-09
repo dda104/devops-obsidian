@@ -1,14 +1,8 @@
-# 📖 Introduction
+# 📖 Mirroring from Github to Gitlab
 
-Gitlab и Github поддерживают настройку зеркалирования репозиториев
+1️⃣ Создать Gitlab и Github репозитории
 
----
-
-# 1️⃣ Prepare
-
-Создать Gitlab и Github репозитории
-
-Создать в Github токен для зеркалирования с правами `repo, workflow` на странице [Github Settings](https://github.com/settings/tokens)
+2️⃣ Создать в Github токен для зеркалирования с правами `repo, workflow` на странице [Github Settings](https://github.com/settings/tokens)
 
 ---
 

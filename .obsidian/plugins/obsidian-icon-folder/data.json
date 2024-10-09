@@ -46,5 +46,5 @@
   "asdf - Install old version python.md": "SiPython",
   "mdadm - Create linux raid.md": "LiHardDrive",
   "venv - Create guide.md": "SiPython",
-  "Mirroring repositories.md": "SiGit"
+  "Mirroring Git repositories.md": "SiGit"
 }
