@@ -12,6 +12,10 @@ curl -q ifconfig.me
 
 ---
 
+# 🥇 Best Practice
+
+---
+
 # 🌎 Links
 
 ---
