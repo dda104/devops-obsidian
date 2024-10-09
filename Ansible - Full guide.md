@@ -156,8 +156,6 @@ nginx_install: true
 
 Jinja2 (j2) - Это шаблонизатор Python используемый в Ansible.
 
-Простой пример шаблона:
-
 ```j2 title=template.j2
 nginx install = {{ nginx_install }}
 
