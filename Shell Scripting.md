@@ -1,5 +1,13 @@
 # 🐚 Bash Specific
 
+Отладка скриптов
+
+```shell
+#!/bin/bash
+trap 'echo "# $BASH_COMMAND";read' DEBUG
+...
+```
+
 ---
 
 # 🤹‍♀️ Use cases
