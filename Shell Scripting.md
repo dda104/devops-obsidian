@@ -22,7 +22,15 @@ fi
 
 ---
 
-№
+# 📄 Sed
+
+Вывести 10 строку из file
+
+```shell
+sed -n '10p' file
+```
+
+---
 
 # 🤹‍♀️ Use cases
 
@@ -53,5 +61,7 @@ trap 'echo "# $BASH_COMMAND";read' DEBUG
 ---
 
 # 🌎 Links
+
+- [sed gnu.org](https://www.gnu.org/software/sed/manual/sed.html)
 
 ---
