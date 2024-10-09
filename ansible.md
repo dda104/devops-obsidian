@@ -7,7 +7,7 @@
 - [ ] Написать j2
 - [ ] Написать структуру коллекции
 - [ ] Написать ansible.cfg
-- [ ] Написать Ansible lint
+- [ ] Написать ansible-lint
 - [ ] Написать yamllint
 - [ ] Написать ansible doctor
 - [ ] Написать Ansible galaxy
