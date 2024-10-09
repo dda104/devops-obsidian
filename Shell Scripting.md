@@ -16,6 +16,10 @@ then
 fi
 ```
 
+```shell
+VARIABLE=$(<file_path)
+```
+
 ---
 
 # 🤹‍♀️ Use cases
