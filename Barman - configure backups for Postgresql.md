@@ -26,11 +26,6 @@ max_replication_Slots > 3
 listen_addresses='<IP_address_barman_host>'
 ```
 
->[!NOTE]
-> `IP_address_barman_host` - Это IP хоста с Barman
-> 
-> max_wal_senders и max_replication_slots изначально 10, wal_level по умолчанию replica
-
 ---
 
 # 🔨 Configure Barman on Debian 11
@@ -76,7 +71,7 @@ create_slot = auto
 Создать `~barman/.pgpass`
 
 ```text title=~barman/.pgpass
-10.0.1.1:5432:*:barman:barman
+10.0.1.1:5432:*:<Barman User>:<>
 ```
 
 Настроить и проверить бэкапирование
