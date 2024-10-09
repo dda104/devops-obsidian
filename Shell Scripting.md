@@ -2,7 +2,7 @@
 
 ## Examples
 
-Вывод 
+Вывод диапазона чисел:
 
 ```shell title=for
 for i in {1..99}
