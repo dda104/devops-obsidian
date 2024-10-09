@@ -193,11 +193,11 @@ Ansible Role - Структура каталогов содержащая под
 
 # Best practice
 
-## Ansible.cfg
+## 🔧 Ansible.cfg
 
-## Ansible-lint
+## 👨‍🏫 Ansible-lint
 
-## Yamllint
+## 👩‍🏫 Yamllint
 
 ## Ansible doctor
 
