@@ -208,10 +208,13 @@ inventory = inventory.yml
 
 Подготовленные переменные - это переменные для внутренней работы Ansible.
 
-```yaml
+```yaml title=all.yml
+---
 ansible_ssh_user: ansible
 ansible_port: 666
 ansible_python_interpreter: /usr/bin/python3
+
+# Ignore attempt new ssh hosts
 ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
 ```
 
