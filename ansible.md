@@ -196,9 +196,11 @@ Ansible Role - Структура каталогов содержащая под
 
 ansible.cfg - Это специфичный файл с различным набором настроек
 
-```ini
-[defaults]  
+```ini title=ansible.cfg
+[defaults]
+# Ignore man in the middle
 host_key_checking = False
+
 inventory = inventory.yml
 ```
 
