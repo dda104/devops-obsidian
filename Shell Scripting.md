@@ -7,16 +7,16 @@ For по диапазону чисел:
 ```shell title=for
 for i in {1..99}
 do
-	echo $i
+    ...
 done
 ```
 
 Проверка на четность числа:
 
 ```shell title=if
-if (( $1 % 2 == 0 ))
+if (( $NUMBER % 2 == 0 ))
 then
-	...
+    ...
 fi
 ```
 
