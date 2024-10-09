@@ -1,4 +1,4 @@
-# 🐚 Bash syntax
+# 🐚 Bash Specific
 
 ---
 
