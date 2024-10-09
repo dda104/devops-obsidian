@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiAnsible",
-      "LiReplace",
-      "SiLinux",
-      "LiBrain",
-      "SiGit"
+      "SiGit",
+      "SiPostgresql",
+      "LiPackage",
+      "LiHardDrive",
+      "LiImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,18 +33,12 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
+  "README.md": "❗",
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
   "Telegram Bot - Create guide.md": "SiTelegram",
   "Virtualenv - Create guide.md": "SiPython",
   "Useful tools.md": "LiPackage",
   "Barman - configure backups for Postgresql.md": "SiPostgresql",
-  "Mirroring repositories from Gitlab to Github.md": "SiGit",
-  "LLM - Install and Usage.md": "LiBrain",
-  "Escaping http special character.md": "LiReplace",
-  "Ansible - Full guide.md": "SiAnsible",
-  "README.md": "❗",
-  "sudo.md": "SiLinux",
-  "asdf - Install old version python.md": "SiPython",
-  "mdadm - Create linux raid.md": "LiHardDrive"
+  "Mirroring repositories from Gitlab to Github.md": "SiGit"
 }
