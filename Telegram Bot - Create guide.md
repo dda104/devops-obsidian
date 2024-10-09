@@ -8,7 +8,7 @@
 
 1. Добавить бота в чат
 2. В чате выполнить команду `/start`, на этом этапе никакого вывода быть не должно
-3. Открыть в браузере страницу `https://api.telegram.org/bot*Token*/getUpdates` и найти в json `"chat":{"id":*ID*,...`
+3. Открыть в браузере страницу `https://api.telegram.org/bot<Token>/getUpdates` и найти в json `"chat":{"id":<Chat_ID>,...`
 
 >[!NOTE] 
 >`Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
@@ -43,7 +43,7 @@ pip install pyTelegramBotAPI
 ```python title=main.py
 import telebot
 
-TOKEN = '*Token*'
+TOKEN = '<Token>'
 
 bot = telebot.TeleBot(TOKEN)
 
