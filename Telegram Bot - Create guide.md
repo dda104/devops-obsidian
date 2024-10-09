@@ -66,8 +66,8 @@ bot.polling()
 
 >[!NOTE] 
 >Должен появиться ответ на сообщение вида:
->Chat ID этого чата: \*chat_id\*
-И message_thread_id: \*msg_thread_id\*
+>Chat ID этого чата: <Chat_id>
+И message_thread_id: <Msg_thread_id>
 
 ---
 
