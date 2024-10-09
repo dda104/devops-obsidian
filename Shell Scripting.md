@@ -1,5 +1,23 @@
 # 🐚 Bash Specific
 
+for
+
+```shell
+for i in {1..99}
+do
+	echo $i
+done
+```
+
+if
+
+```shell
+if (( $1 % 2 == 0 ))
+then
+	echo And is also an even number.
+fi
+```
+
 Отладка скриптов
 
 ```shell
