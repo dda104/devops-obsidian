@@ -9,8 +9,8 @@
 ## 🏗️ Create Role
 
 ```sql
-CREATE user *Role_name* PASSWORD '*Role_password*';
-ALTER USER *Role_name* WITH SUPERUSER;
+CREATE user <Role_name> PASSWORD '<Role_password>';
+ALTER USER <Role_name> WITH SUPERUSER;
 ```
 
 >[!NOTE]
