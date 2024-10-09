@@ -22,10 +22,10 @@
   - Включить
   - Auto commit: 1
   - Auto pull: 1
-  - Commit message auto commit: `*gitlab_user*: {{date}}`
-  - Commit message manual commit: `*gitlab_user*: {{date}}`
-  - Autor name: `*gitlab_user*`
-  - Autor email: `*gitlab_mail*`
+  - Commit message auto commit: `<Gitlab_user>: {{date}}`
+  - Commit message manual commit: `<Gitlab_user>: {{date}}`
+  - Autor name: `<Gitlab_user>`
+  - Autor email: `<Gitlab_mail>`
 
 ---
 
