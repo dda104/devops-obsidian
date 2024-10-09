@@ -198,10 +198,10 @@ ansible.cfg - Это специфичный файл с различным на�
 
 ```ini title=ansible.cfg
 [defaults]
+inventory = inventory.yml
+
 # Ignore man in the middle
 host_key_checking = False
-
-inventory = inventory.yml
 ```
 
 ## 🔨 Prepared Variables
