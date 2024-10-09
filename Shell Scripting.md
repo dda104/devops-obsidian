@@ -67,5 +67,6 @@ trap 'echo "# $BASH_COMMAND";read' DEBUG
 # 🌎 Links
 
 - [sed gnu.org](https://www.gnu.org/software/sed/manual/sed.html)
+- [awk Website]((http://www.awklang.org)
 
 ---
