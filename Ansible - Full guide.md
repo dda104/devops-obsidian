@@ -164,7 +164,7 @@ install package {{ i }}
 {% endfor %}
 ```
 
-# 😎 Advanced
+# 🤓 Advanced
 
 ## 📚 Structure Ansible Role
 
@@ -191,7 +191,7 @@ Ansible Role - Структура каталогов содержащая под
 
 ---
 
-# Best practice
+# 😎 Best practice
 
 ## 🔧 Ansible.cfg
 
@@ -199,11 +199,11 @@ Ansible Role - Структура каталогов содержащая под
 
 ## 👩‍🏫 Yamllint
 
-## Ansible doctor
+## ✍️ Ansible doctor
 
-## Ansible galaxy
+## 🤡 Ansible galaxy
 
-## Molecule
+## 📝 Molecule
 
 ---
 
