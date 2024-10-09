@@ -35,11 +35,8 @@
   },
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
-  "Useful tools.md": "LiPackage",
-  "Escaping http special character.md": "LiReplace",
   "README.md": "❗",
   "sudo.md": "SiLinux",
-  "Mirroring Git repositories.md": "SiGit",
   "License Templates.md": "LiList",
   "venv.md": "SiPython",
   "Telegram Bot.md": "SiTelegram",
@@ -47,5 +44,8 @@
   "asdf.md": "SiPython",
   "barman.md": "SiPostgresql",
   "ansible.md": "SiAnsible",
-  "mdadm.md": "LiHardDrive"
+  "mdadm.md": "LiHardDrive",
+  "Escaping HTTP Special Character.md": "LiReplace",
+  "Mirroring Git Repositories.md": "SiGit",
+  "Useful Tools.md": "LiPackage"
 }
