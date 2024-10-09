@@ -189,9 +189,13 @@ Ansible Role - Структура каталогов содержащая под
 Jinja2 (j2) - Это шаблонизатор который используется в Ansible
 
 ```j2 title=template.j2
+# Variable usage
 {{ variable }}
 
-
+# For usage
+{% for element in array %}
+{{ element }}
+{% endfor %}
 ```
 
 ## 📚 Structure Ansible Collection
