@@ -165,6 +165,8 @@ install package {{ i }}
 
 # 🤓 Advanced
 
+## 📄 Ansible Tasks
+
 ## 📚 Structure Ansible Role
 
 Ansible Role - Структура каталогов содержащая подготовленные таски для переиспользования
@@ -181,8 +183,6 @@ Ansible Role - Структура каталогов содержащая под
 ├── tasks/     - Таски
 └── templates/ - Шаблоны
 ```
-
-## 📄 Ansible Tasks
 
 ## 🧩 Jinja2
 
@@ -209,6 +209,7 @@ Ansible Role - Структура каталогов содержащая под
 # 🏢 Internal Links
 
 - [[Asdf - Install old version python]]
+- [[Virtualenv - Create guide]]
 
 ---
 
