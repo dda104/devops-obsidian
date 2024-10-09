@@ -196,7 +196,14 @@ Ansible Role - Структура каталогов содержащая под
 
 ## 🔨 Prepared Variables
 
-Подготовленные переменные  это переменные для внутренней работы Ansible.
+Подготовленные переменные - это переменные для внутренней работы Ansible.
+
+```yaml
+ansible_ssh_user: ansible
+ansible_port: 666
+ansible_python_interpreter: /usr/bin/python3
+ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
+```
 
 ## 👨‍🏫 Ansible-lint
 
