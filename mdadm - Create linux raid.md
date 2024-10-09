@@ -20,7 +20,7 @@ cat /proc/mdstat
 Создание нового raid1 массива из свободных устройств `/dev/sda` и `/dev/sdb`
 
 ```shell
-mdadm --create --verbose /dev/*Raid_device_name* --level=1 --raid-devices=2 /dev/*Disk_devices*
+mdadm --create --verbose /dev/<Raid_device_name> --level=1 --raid-devices=2 /dev/<Disk_devices>
 ```
 
 >[!NOTE]
@@ -42,11 +42,8 @@ blkid
 Для проверки можно выполнить:
 
 ```shell
-mount /*Path_mount_point*
+mount /<Path_mount_point>
 ```
-
->[!NOTE]
-> `Path_mount_point` - Это путь до точки монтирования
 
 Также можно выполнить перезагрузку с проверкой `df -h`
 
