@@ -45,7 +45,7 @@
   "venv.md": "SiPython",
   "Telegram Bot.md": "SiTelegram",
   "LLM via Ollama and LM Studio.md": "LiBrain",
-  "Barman.md": "SiPostgresql",
   "asdf.md": "SiPython",
-  "Ansible.md": "SiAnsible"
+  "barman.md": "SiPostgresql",
+  "ansible.md": "SiAnsible"
 }
