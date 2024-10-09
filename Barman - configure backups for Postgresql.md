@@ -71,7 +71,7 @@ create_slot = auto
 Создать `~barman/.pgpass`
 
 ```text title=~barman/.pgpass
-10.0.1.1:5432:*:<Barman User>:<>
+10.0.1.1:5432:*:<Barman User>:<Barman Password>
 ```
 
 Настроить и проверить бэкапирование
@@ -103,7 +103,6 @@ barman backup postgres
 
 ## ❌ Delete Backup
 
-Получить id `barman list-backup all`
 
 ```shell
 barman list-backup all
@@ -114,7 +113,7 @@ barman delete *id*
 
 ```shell
 barman list-backup all
-barman recover --remote-ssh-command "ssh postgres@*remote_ip*" postgres_server *id_barman_backup* /*remote_path*/*version*/main
+barman recover --remote-ssh-command "ssh postgres@<Remote_ip*" postgres_server *id_barman_backup* /*remote_path*/*version*/main
 ```
 
 > [!NOTE]
