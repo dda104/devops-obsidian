@@ -2,7 +2,7 @@
 
 ## Examples
 
-Вывод диапазона чисел:
+For по диапазону чисел:
 
 ```shell title=for
 for i in {1..99}
@@ -11,12 +11,12 @@ do
 done
 ```
 
-Вывод четных чисел:
+Проверка на четность числа:
 
 ```shell title=if
 if (( $1 % 2 == 0 ))
 then
-	echo And is also an even number.
+	...
 fi
 ```
 
