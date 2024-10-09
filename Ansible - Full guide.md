@@ -183,11 +183,11 @@ Ansible Role - Структура каталогов содержащая под
 └── templates/ - Шаблоны
 ```
 
-## Ansible Tasks
+## 📄 Ansible Tasks
 
-## Jinja2
+## 🧩 Jinja2
 
-## Structure Ansible Collection
+## 📚 Structure Ansible Collection
 
 ---
 
