@@ -13,8 +13,8 @@ git clone https://github.com/asdf-vm/asdf.git <Path_to_clone> --branch <Git_tag>
 ```
 
 ```shell title=~/.bashrc
-source "<Path_git_repository>/asdf.sh"
-source "<Path_git_repository>/completions/asdf.bash"
+source <Path_git_repository>/asdf.sh
+source <Path_git_repository>/completions/asdf.bash
 ```
 
 ---
