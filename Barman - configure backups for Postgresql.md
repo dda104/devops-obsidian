@@ -13,26 +13,17 @@ CREATE user <Role_name> PASSWORD '<Role_password>';
 ALTER USER <Role_name> WITH SUPERUSER;
 ```
 
->[!NOTE]
-> `Role_name` - Это название роли, например: `barman`, `Role_password` - это пароль для роли
-
-Добавить role в `/etc/postgres/*Version*/main/pg_hba.conf`
-
->[!NOTE]
-> `Version` - Это версия Postgresql
+Добавить role в `/etc/postgres/<Version postgresql>/main/pg_hba.conf`
 
 ## 🔧 Configure Postgresql
 
-Внести изменения в `/etc/postgresql/*Version*/main/postgresql.conf`
-
->[!NOTE]
-> `Version` - Это версия Postgresql
+Внести изменения в `/etc/postgresql/<Version postgresql>/main/postgresql.conf`
 
 ```ini title=postgresql.conf
 wal_level = replica or logical
 max_wal_senders > 3
 max_replication_Slots > 3
-listen_addresses='*IP_address_barman_host*'
+listen_addresses='<IP_address_barman_host>'
 ```
 
 >[!NOTE]
