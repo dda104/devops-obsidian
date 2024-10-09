@@ -1,5 +1,7 @@
 # 🐚 Bash syntax
 
+## Examples
+
 ```shell title=for
 for i in {1..99}
 do
