@@ -165,6 +165,37 @@ install package {{ i }}
 
 # 🤓 Advanced
 
+## 🔧 Ansible.cfg
+
+ansible.cfg - Это специфичный файл с различным набором настроек
+
+```ini title=ansible.cfg
+[defaults]
+inventory = inventory.yml
+
+# Ignore man in the middle
+host_key_checking = False
+```
+
+## 🔨 Prepared Variables
+
+Подготовленные переменные - это переменные для внутренней работы Ansible.
+
+```yaml title=all.yml
+---
+ansible_ssh_user: ansible
+ansible_port: 666
+ansible_python_interpreter: /usr/bin/python3
+
+# Ignore attempt new ssh hosts
+ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
+```
+
+## 🏃‍♀️ Gathering facts
+
+- ansible_default_ipv4
+- inventory_hostname
+
 ## 📄 Ansible Tasks
 
 ## 📚 Structure Ansible Role
@@ -203,37 +234,6 @@ Jinja2 (j2) - Это шаблонизатор который используе�
 ---
 
 # 😎 Best practice
-
-## 🔧 Ansible.cfg
-
-ansible.cfg - Это специфичный файл с различным набором настроек
-
-```ini title=ansible.cfg
-[defaults]
-inventory = inventory.yml
-
-# Ignore man in the middle
-host_key_checking = False
-```
-
-## 🔨 Prepared Variables
-
-Подготовленные переменные - это переменные для внутренней работы Ansible.
-
-```yaml title=all.yml
----
-ansible_ssh_user: ansible
-ansible_port: 666
-ansible_python_interpreter: /usr/bin/python3
-
-# Ignore attempt new ssh hosts
-ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
-```
-
-## 🏃‍♀️ Gathering facts
-
-- ansible_default_ipv4
-- inventory_hostname
 
 ## 👨‍🏫 Ansible-lint
 
