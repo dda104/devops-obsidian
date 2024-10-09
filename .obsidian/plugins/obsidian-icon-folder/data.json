@@ -35,17 +35,17 @@
   },
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
-  "Telegram Bot - Create guide.md": "SiTelegram",
   "Useful tools.md": "LiPackage",
-  "Barman - configure backups for Postgresql.md": "SiPostgresql",
-  "LLM - Install and Usage.md": "LiBrain",
   "Escaping http special character.md": "LiReplace",
   "Ansible - Full guide.md": "SiAnsible",
   "README.md": "❗",
   "sudo.md": "SiLinux",
   "asdf - Install old version python.md": "SiPython",
   "mdadm - Create linux raid.md": "LiHardDrive",
-  "venv - Create guide.md": "SiPython",
   "Mirroring Git repositories.md": "SiGit",
-  "License Templates.md": "LiList"
+  "License Templates.md": "LiList",
+  "venv.md": "SiPython",
+  "Telegram Bot.md": "SiTelegram",
+  "LLM via Ollama and LM Studio.md": "LiBrain",
+  "Barman.md": "SiPostgresql"
 }
