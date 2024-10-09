@@ -218,6 +218,8 @@ ansible_python_interpreter: /usr/bin/python3
 ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
 ```
 
+## Gathering facts
+
 ## 👨‍🏫 Ansible-lint
 
 ## 👩‍🏫 Yamllint
