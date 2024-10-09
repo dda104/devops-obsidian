@@ -1,29 +1,17 @@
-# 🐚 Bash Specific
+# 🐚 Bash syntax
 
-for
-
-```shell
+```shell title=for
 for i in {1..99}
 do
 	echo $i
 done
 ```
 
-if
-
-```shell
+```shell title=if
 if (( $1 % 2 == 0 ))
 then
 	echo And is also an even number.
 fi
-```
-
-Отладка скриптов
-
-```shell
-#!/bin/bash
-trap 'echo "# $BASH_COMMAND";read' DEBUG
-...
 ```
 
 ---
@@ -39,6 +27,14 @@ curl -q ifconfig.me
 ---
 
 # 🥇 Best Practice
+
+Отладка скриптов
+
+```shell
+#!/bin/bash
+trap 'echo "# $BASH_COMMAND";read' DEBUG
+...
+```
 
 ---
 
