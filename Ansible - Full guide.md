@@ -170,11 +170,11 @@ Ansible Role - Структура каталогов содержащая под
 
 ---
 
-# Ansible Tasks
+
 
 ---
 
-# Jinja2
+
 
 ---
 
@@ -194,6 +194,10 @@ Ansible Role - Структура каталогов содержащая под
 ```
 
 ---
+
+# Ansible Tasks
+
+# Jinja2
 
 # Structure Ansible Collection
 
