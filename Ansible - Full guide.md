@@ -208,7 +208,7 @@ Ansible Role - Структура каталогов содержащая под
 
 # 🏢 Internal Links
 
-- [[Asdf - Install old version python]]
+- [[asdf - Install old version python]]
 - [[Virtualenv - Create guide]]
 
 ---

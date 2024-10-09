@@ -35,8 +35,6 @@
   },
   "Archive": "LiFileArchive",
   "imgs": "LiImage",
-  "Asdf - Install old version python.md": "SiPython",
-  "Mdadm - Create linux raid.md": "LiHardDrive",
   "Telegram Bot - Create guide.md": "SiTelegram",
   "Virtualenv - Create guide.md": "SiPython",
   "Useful tools.md": "LiPackage",
@@ -46,5 +44,7 @@
   "Escaping http special character.md": "LiReplace",
   "Ansible - Full guide.md": "SiAnsible",
   "README.md": "❗",
-  "sudo.md": "SiLinux"
+  "sudo.md": "SiLinux",
+  "asdf - Install old version python.md": "SiPython",
+  "mdadm - Create linux raid.md": "LiHardDrive"
 }
