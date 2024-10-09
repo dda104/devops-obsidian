@@ -48,6 +48,8 @@ Ansible - Это система управления кофигурациями.
 └── .yamllint            - Настройки yaml линтера
 ```
 
+## 📄 Ansible Tasks
+
 ## 📑 Ansible Playbook
 
 Основной исполняемый файл в Ansible - Это ansible playbook.
@@ -195,8 +197,6 @@ ansible_ssh_common_args: '-o StrictHostKeyChecking=accept-new'
 
 - ansible_default_ipv4
 - inventory_hostname
-
-## 📄 Ansible Tasks
 
 ## 📚 Structure Ansible Role
 
