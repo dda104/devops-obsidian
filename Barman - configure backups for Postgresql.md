@@ -106,19 +106,19 @@ barman backup postgres
 
 ```shell
 barman list-backup all
-barman delete *id*
+barman delete <ID_backup>
 ```
 
 ## ♻️ Restore From Backup
 
 ```shell
 barman list-backup all
-barman recover --remote-ssh-command "ssh postgres@<Remote_ip>" postgres_server <ID_barman_backup> /<Remote_path>/<Version postgresql>/main
+barman recover --remote-ssh-command "ssh postgres@<Remote_ip>" postgres_server <ID_barman_backup> /<Remote_path>/<Version_postgresql>/main
 ```
 
 > [!NOTE]
 >  Если использовать другого пользователя придется выполнить
-> `chown postgres:postgres -R /Remote_path>/<Version_posgr/main`
+> `chown postgres:postgres -R /Remote_path>/<Version_posgresql>/main`
 
 ## 🔧 Change Target Server
 
