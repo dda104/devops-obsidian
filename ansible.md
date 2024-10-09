@@ -194,6 +194,8 @@ Ansible Role - Структура каталогов содержащая под
 
 ## 🔧 Ansible.cfg
 
+##  Prepared Variables
+
 ## 👨‍🏫 Ansible-lint
 
 ## 👩‍🏫 Yamllint
