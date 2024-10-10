@@ -79,6 +79,6 @@ bot.polling()
 - [BotFather](https://t.me/BotFather)
 - [PyPi Telebot](https://pypi.org/project/pyTelegramBotAPI/)
 - [PyPi Virtualenv](https://pypi.org/project/virtualenv/)
-- [Get chat_id and thread]([https://t.me/dda104debugbot](https://t.me/dda104debugbot))
+- [Get chat_id and thread_id bot]([https://t.me/dda104debugbot](https://t.me/dda104debugbot))
 
 ---
