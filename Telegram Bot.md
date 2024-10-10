@@ -64,13 +64,11 @@ def echo_message(message):
 bot.polling()
 ```
 
->[!NOTE] 
->`Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
-
 5. Выполнить в требуемом топике `/start`
 
 >[!NOTE] 
 >Должен появиться ответ на сообщение вида:
+>
 >Chat ID этого чата: <Chat_id>
 И message_thread_id: <Msg_thread_id>
 
@@ -81,5 +79,6 @@ bot.polling()
 - [BotFather](https://t.me/BotFather)
 - [PyPi Telebot](https://pypi.org/project/pyTelegramBotAPI/)
 - [PyPi Virtualenv](https://pypi.org/project/virtualenv/)
+- [Get chat_id and thread]([https://t.me/dda104debugbot](https://t.me/dda104debugbot))
 
 ---
