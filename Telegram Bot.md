@@ -13,7 +13,7 @@
 >[!NOTE] 
 >`Token` - Это токен бота который можно получить в [BotFather](https://t.me/BotFather)
 >
->`ID` - Это Chat ID
+>`Chat_ID` - Это Chat ID
 
 ---
 
