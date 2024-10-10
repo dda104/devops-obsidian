@@ -15,7 +15,7 @@
 >
 >`Chat_ID` - Это Chat ID
 
->[!TIP] Для получения можно использовать скрипт из 4 пункта Get [[Telegram Bot#Get Msg_thread_id|Get Msg_thread_id]]
+>[!TIP] Для получения можно использовать скрипт из 4 пункта [[Telegram Bot#✉️ Get Msg_thread_id|✉️ Get Msg_thread_id]]
 
 ---
 
