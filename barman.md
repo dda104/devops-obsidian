@@ -41,7 +41,8 @@ apt update
 apt -y install barman
 ```
 
-## 🔧 Configure Barman
+## 
+Configure Barman
 
 Отредактировать `/etc/barman/barman.conf`
 
