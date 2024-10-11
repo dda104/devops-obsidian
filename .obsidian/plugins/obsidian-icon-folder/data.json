@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiTerraform",
-      "SiLinux",
       "LiAlertTriangle",
       "SiGnubash",
-      "LiList"
+      "LiList",
+      "SiAnsible",
+      "LiReplace"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,8 +48,5 @@
   "Mirroring Git Repositories.md": "SiGit",
   "Useful Tools.md": "LiPackage",
   "Shell Scripting.md": "SiGnubash",
-  "Linux Security.md": "SiLinux",
-  "Linux exploitation.md": "SiLinux",
-  "Ansible.md": "SiAnsible",
-  "Terraform.md": "SiTerraform"
+  "Linux Security.md": "LiAlertTriangle"
 }
