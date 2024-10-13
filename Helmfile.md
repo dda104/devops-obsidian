@@ -19,7 +19,6 @@ environments:
 repositories:
   - name: ingress-nginx
     url: https://kubernetes.github.io/ingress-nginx
----
 releases:
   - chart: ingress-nginx/ingress-nginx
     namespace: ingress-nginx
