@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiKubernetes",
       "🧠",
       "LiBrain",
       "LiAlertTriangle",
-      "SiGnubash",
-      "LiList"
+      "SiGnubash"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,5 +49,6 @@
   "Shell Scripting.md": "SiGnubash",
   "Linux Security.md": "LiAlertTriangle",
   "mflow.md": "🧠",
-  "LLM via Ollama and LM Studio.md": "🧠"
+  "LLM via Ollama and LM Studio.md": "🧠",
+  "Helmfile.md": "SiKubernetes"
 }
