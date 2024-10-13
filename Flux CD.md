@@ -15,3 +15,11 @@ flux bootstrap gitlab --owner=<group> --repository=<repository name> --path=<pat
 ```
 
 Удалить токен в gitlab
+
+создать в папке cluster `<resource>.yaml`, например `vm.yaml`
+
+Для проверки можно использовать:
+
+```shell
+flux get all
+```
