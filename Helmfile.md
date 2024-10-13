@@ -34,6 +34,9 @@ releases:
 > Рекомендуется разделять environments и releases:
 > *WARNING: environments and releases cannot be defined within the same YAML part. Use --- to extract the environments into a dedicated part*
 
+> [!NOTE]
+> В k3s можно не указывать loadBalancerIP для ingress контроллера
+
 Для деплоя выполнить:
 
 ```shell
