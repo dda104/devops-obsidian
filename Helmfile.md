@@ -4,4 +4,4 @@
 
 ## ⬇️ Install
 
-Перейти в Releases на Git
+Перейти в Releases на [Github Helmfile](https://github.com/helmfile/helmfile) и скачать требуемую версию для требуемой системы и перенести ис
