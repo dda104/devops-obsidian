@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧠",
       "LiBrain",
       "LiAlertTriangle",
       "SiGnubash",
-      "LiList",
-      "SiAnsible"
+      "LiList"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,7 +40,6 @@
   "License Templates.md": "LiList",
   "venv.md": "SiPython",
   "Telegram Bot.md": "SiTelegram",
-  "LLM via Ollama and LM Studio.md": "LiBrain",
   "asdf.md": "SiPython",
   "barman.md": "SiPostgresql",
   "mdadm.md": "LiHardDrive",
@@ -49,5 +48,6 @@
   "Useful Tools.md": "LiPackage",
   "Shell Scripting.md": "SiGnubash",
   "Linux Security.md": "LiAlertTriangle",
-  "mflow.md": "LiBrain"
+  "mflow.md": "🧠",
+  "LLM via Ollama and LM Studio.md": "🧠"
 }

@@ -77,7 +77,7 @@ predictions = rf.predict(X_test)
 # 🔧 Production example
 
 Вам стало скучно? В жизни не хватает секса? Тогда этот раздел для вас!
-docker compose для запуска mlflow с S3 и postgresql
+docker compose для запуска mlflow с S3 и postgresql:
 
 ```yaml
 services:
@@ -143,7 +143,7 @@ networks:
           gateway: "172.100.0.1"
 ```
 
-basic_auth.ini
+basic_auth.ini:
 
 ```ini
 [mlflow]
