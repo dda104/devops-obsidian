@@ -30,3 +30,8 @@ releases:
             loadBalancerIP: 10.10.10.10
 
 ```
+
+> [!NOTE]
+> Рекомендуется разделять environments и releases:
+> WARNING: environments and releases cannot be defined within the same YAML part. Use --- to extract the environments into a dedicated part
+
