@@ -7,6 +7,6 @@ curl -s https://fluxcd.io/install.sh | sudo bash
 выполнить:
 `
 ```shell
-flux bootstrap gitlab
+flux bootstrap gitlab --owner=<group> --repository=<repository name> --path
 ```
 
