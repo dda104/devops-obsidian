@@ -54,3 +54,10 @@ spec:
 ```shell
 flux get all
 ```
+
+# 🌎 Links
+
+
+- [FluxCD в действии - Георг Гаал](https://www.youtube.com/watch?v=T4fkWIGahiQ&t=711s)
+
+---
