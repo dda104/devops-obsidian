@@ -41,3 +41,10 @@ helmfile sync
 ```
 
 ---
+
+# 🌎 Links
+
+- [Helmfile Github](https://github.com/helmfile/helmfile)
+- [Helmfile Docs](https://helmfile.readthedocs.io/en/latest/)
+
+---
