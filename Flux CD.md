@@ -30,8 +30,11 @@ spec:
   url: https://victoriametrics.github.io/helm-charts/
 ---
 apiVersion: v1
-king: Namespace
-metadata: monitoring
+kind: Namespace
+metadata:
+  name: monitoring
+  labels:
+    name: monitoring
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
@@ -47,6 +50,13 @@ spec:
         name: vm
       version: '*'
   interval: 1m0s
+    values:
+    vmsingle:
+      ingress:
+        enabled: true
+        ingressClassName: "nginx"
+        hosts:
+        
 ```
 
 Для проверки можно использовать:
