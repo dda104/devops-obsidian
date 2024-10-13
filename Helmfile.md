@@ -40,6 +40,12 @@ releases:
 helmfile sync
 ```
 
+Для дестроя выполнить:
+
+```shell
+helmfile destroy
+```
+
 ---
 
 # 🌎 Links
