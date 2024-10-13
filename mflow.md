@@ -1,21 +1,22 @@
 # 🚀 Get started
 
-Самый обычный запуск mlflow на локальном хосте
-```
+Самый обычный запуск mlflow на локальном хосте:
+
+```shell
 mlflow server --host 0.0.0.0 --port *5000/8080*
 ```
 Проверка что работает
 1. Создаем venv
-```sh
+```shell
 virtualenv .venv
 source .venv/bin/activate
 ```
 2. Устанавливаем зависимости
-```sh
+```shell
 pip install numpy scikit-learn==1.5.1 mlflow
 ```
 3. Экспортируем переменные окружения
-```sh
+```shell
    export MLFLOW_TRACKING_URI=http://127.0.0.1:8080
 ```
 4. Создаем файл для эксперимента `test.py`
@@ -67,7 +68,7 @@ predictions = rf.predict(X_test)
 
 Вам стало скучно? В жизни не хватает секса? Тогда этот раздел для вас!
 docker compose для запуска mlflow с S3 и postgresql
-```docker-compose
+```yaml
 services:
   postgres:
     container_name: postgres
@@ -141,11 +142,15 @@ authorization_function = mlflow.server.auth:authenticate_request_basic_auth
 ```
 
 ---
+
 # 👇 Possible problems
+
 * На macos 5000 port  по умолчанию занят системным сервисов, лучше использовать 8080
 * Если вначале был запущен backend без S3, после этого придется чистить в базе в таблице `public.runs` колонку `artifact_uri` тк она будет содержать `/mlartifacts/` (артефакты не будут помещаться в S3)
 ---
+
 #  🌎 Links
+
 * https://mlflow.org/docs/latest/tracking/tutorials/remote-server.html
 * https://github.com/mlflow/mlflow/tree/master/examples/mlflow_artifacts
 * https://github.com/mlflow/mlflow/tree/master/examples/docker
@@ -155,3 +160,5 @@ authorization_function = mlflow.server.auth:authenticate_request_basic_auth
 * https://mlflow.org/docs/latest/tracking/tutorials/remote-server.html
 * https://www.restack.io/docs/mlflow-knowledge-mlflow-log-model-s3
 * https://mlflow.org/docs/latest/auth/index.html
+
+---
