@@ -7,5 +7,6 @@ curl -s https://fluxcd.io/install.sh | sudo bash
 выполнить:
 `
 ```shell
-flux bootstrap
+flux bootstrap gitlab
 ```
+
