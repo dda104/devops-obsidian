@@ -13,3 +13,5 @@ export GITLAB_TOKEN=<TOKEN>
 
 flux bootstrap gitlab --owner=<group> --repository=<repository name> --path=<path> --read-write-key --components-extra='image-reflector-controller,image-automation-controller'
 ```
+
+Удалить токен в gitlab
