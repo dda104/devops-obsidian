@@ -51,5 +51,7 @@
   "mflow.md": "🧠",
   "LLM via Ollama and LM Studio.md": "🧠",
   "Helmfile.md": "SiKubernetes",
-  "Terraform.md": "✍"
+  "Terraform.md": "✍",
+  "Ansible.md": "✍",
+  "Flux CD.md": "✍"
 }
