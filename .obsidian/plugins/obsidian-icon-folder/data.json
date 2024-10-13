@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "✍",
       "SiKubernetes",
       "🧠",
       "LiBrain",
-      "LiAlertTriangle",
-      "SiGnubash"
+      "LiAlertTriangle"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,6 @@
   "Linux Security.md": "LiAlertTriangle",
   "mflow.md": "🧠",
   "LLM via Ollama and LM Studio.md": "🧠",
-  "Helmfile.md": "SiKubernetes"
+  "Helmfile.md": "SiKubernetes",
+  "Terraform.md": "✍"
 }
