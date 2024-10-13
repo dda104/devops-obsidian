@@ -4,4 +4,6 @@
 
 ## ⬇️ Install
 
-Перейти в Releases на [Github Helmfile](https://github.com/helmfile/helmfile) и скачать требуемую версию для требуемой системы и перенести ис
+Перейти в Releases на [Github Helmfile](https://github.com/helmfile/helmfile) и скачать требуемую версию для требуемой системы и перенести исполняемый файл в директорию из $PATH, например: `/usr/bin`
+
+## Usa
