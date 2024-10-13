@@ -28,10 +28,16 @@ releases:
       - controller:
           service:
             loadBalancerIP: 10.10.10.10
-
 ```
 
 > [!NOTE]
 > Рекомендуется разделять environments и releases:
-> WARNING: environments and releases cannot be defined within the same YAML part. Use --- to extract the environments into a dedicated part
+> *WARNING: environments and releases cannot be defined within the same YAML part. Use --- to extract the environments into a dedicated part*
 
+Для деплоя выполнить:
+
+```shell
+helmfile sync
+```
+
+---
