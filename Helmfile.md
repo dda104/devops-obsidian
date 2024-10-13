@@ -11,5 +11,23 @@
 Для начала создать `helmfile.yaml`:
 
 ```yaml
+---
+environments:
+  default:
+    kubeContext: my_kubernetes
+---
+repositories:
+  - name: ingress-nginx
+    url: https://kubernetes.github.io/ingress-nginx
+---
+releases:
+  - chart: ingress-nginx/ingress-nginx
+    namespace: ingress-nginx
+    name: ingress-nginx
+    version: ~4.11.0
+    values:
+      - controller:
+          service:
+            loadBalancerIP: 10.10.10.10
 
 ```
