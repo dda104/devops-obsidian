@@ -1,3 +1,6 @@
+# Get started
+
+
 ```shell
 curl -s https://fluxcd.io/install.sh | sudo bash
 ```
@@ -56,7 +59,7 @@ spec:
         enabled: true
         ingressClassName: "nginx"
         hosts:
-        
+          - vm.google.com
 ```
 
 Для проверки можно использовать:
