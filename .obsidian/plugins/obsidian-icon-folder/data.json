@@ -34,7 +34,6 @@
     "debugMode": false
   },
   "Archive": "LiFileArchive",
-  "imgs": "LiImage",
   "README.md": "❗",
   "sudo.md": "SiLinux",
   "License Templates.md": "LiList",
@@ -42,16 +41,18 @@
   "Telegram Bot.md": "SiTelegram",
   "asdf.md": "SiPython",
   "barman.md": "SiPostgresql",
-  "mdadm.md": "LiHardDrive",
   "Escaping HTTP Special Character.md": "LiReplace",
   "Mirroring Git Repositories.md": "SiGit",
   "Useful Tools.md": "LiPackage",
   "Shell Scripting.md": "SiGnubash",
   "Linux Security.md": "LiAlertTriangle",
-  "mflow.md": "🧠",
   "LLM via Ollama and LM Studio.md": "🧠",
   "Helmfile.md": "SiKubernetes",
   "Terraform.md": "✍",
   "Ansible.md": "✍",
-  "Flux CD.md": "✍"
+  "Flux CD.md": "✍",
+  "Force Delete Terminating Namespace.md": "✍",
+  "Mlflow.md": "🧠",
+  "Mdadm.md": "LiHardDrive",
+  "Images": "LiImage"
 }
