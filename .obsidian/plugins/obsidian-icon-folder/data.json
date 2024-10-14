@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiLinux",
       "✍",
       "SiKubernetes",
       "🧠",
-      "LiBrain",
-      "LiAlertTriangle"
+      "LiBrain"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,9 +35,7 @@
   },
   "Archive": "LiFileArchive",
   "README.md": "❗",
-  "sudo.md": "SiLinux",
   "License Templates.md": "LiList",
-  "venv.md": "SiPython",
   "Telegram Bot.md": "SiTelegram",
   "barman.md": "SiPostgresql",
   "Escaping HTTP Special Character.md": "LiReplace",
@@ -54,5 +52,8 @@
   "Mdadm.md": "LiHardDrive",
   "Images": "LiImage",
   "ASDF.md": "SiPython",
-  "Kubernetes Exploitation.md": "SiKubernetes"
+  "Kubernetes Exploitation.md": "SiKubernetes",
+  "Linux Exploitation.md": "SiLinux",
+  "Sudo.md": "SiLinux",
+  "Virtualenv.md": "SiPython"
 }
