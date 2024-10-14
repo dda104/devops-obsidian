@@ -18,6 +18,11 @@ flux bootstrap gitlab --owner=<group> --repository=<repository name> --path=<pat
 
 Удалить токен в gitlab
 
+## 🌐 Install Capacitor
+
+
+## Install Helm Chart
+
 создать в папке cluster `<resource>.yaml`:
 
 ```yaml title=hr-vm.yaml
