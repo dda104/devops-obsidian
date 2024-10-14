@@ -20,8 +20,13 @@ flux bootstrap gitlab --owner=<group> --repository=<repository name> --path=<pat
 
 ## 🌐 Install Capacitor
 
+создать в папке cluster `capactior.yaml`:
 
-## Install Helm Chart
+```yaml title=capacitor.yaml
+
+```
+
+## 🧩 Install Helm Chart
 
 создать в папке cluster `<resource>.yaml`:
 
