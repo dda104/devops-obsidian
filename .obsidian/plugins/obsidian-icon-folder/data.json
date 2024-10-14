@@ -39,7 +39,6 @@
   "License Templates.md": "LiList",
   "venv.md": "SiPython",
   "Telegram Bot.md": "SiTelegram",
-  "asdf.md": "SiPython",
   "barman.md": "SiPostgresql",
   "Escaping HTTP Special Character.md": "LiReplace",
   "Mirroring Git Repositories.md": "SiGit",
@@ -51,8 +50,9 @@
   "Terraform.md": "✍",
   "Ansible.md": "✍",
   "Flux CD.md": "✍",
-  "Force Delete Terminating Namespace.md": "✍",
   "Mlflow.md": "🧠",
   "Mdadm.md": "LiHardDrive",
-  "Images": "LiImage"
+  "Images": "LiImage",
+  "ASDF.md": "SiPython",
+  "Kubernetes Exploitation.md": "✍"
 }
