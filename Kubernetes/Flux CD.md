@@ -9,7 +9,7 @@ curl -s https://fluxcd.io/install.sh | sudo bash
 Создать токен в gitlab
 
 выполнить:
-`
+
 ```shell
 export GITLAB_TOKEN=<TOKEN>
 
@@ -23,7 +23,68 @@ flux bootstrap gitlab --owner=<group> --repository=<repository name> --path=<pat
 создать в папке cluster `capactior.yaml`:
 
 ```yaml title=capacitor.yaml
-
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: OCIRepository
+metadata:
+  name: capacitor
+  namespace: flux-system
+spec:
+  interval: 12h
+  url: oci://ghcr.io/gimlet-io/capacitor-manifests
+  ref:
+    semver: ">=0.1.0"
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: capacitor
+  namespace: flux-system
+spec:
+  targetNamespace: flux-system
+  interval: 1h
+  retryInterval: 2m
+  timeout: 5m
+  wait: true
+  prune: true
+  path: "./"
+  sourceRef:
+    kind: OCIRepository
+    name: capacitor
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: capacitor-ingress
+  namespace: flux-system
+spec:
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+      - namespaceSelector: {}
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/instance: capacitor
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: capacitor
+  namespace: flux-system
+spec:
+  ingressClassName: "nginx"
+  rules:
+    - host: capacitor.google.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: capacitor
+                port:
+                  number: 9000
 ```
 
 ## 🧩 Install Helm Chart
