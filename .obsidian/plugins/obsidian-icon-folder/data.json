@@ -44,16 +44,17 @@
   "Shell Scripting.md": "SiGnubash",
   "Linux Security.md": "LiAlertTriangle",
   "LLM via Ollama and LM Studio.md": "🧠",
-  "Helmfile.md": "SiKubernetes",
   "Terraform.md": "✍",
   "Ansible.md": "✍",
-  "Flux CD.md": "✍",
   "Mlflow.md": "🧠",
   "Mdadm.md": "LiHardDrive",
   "Images": "LiImage",
   "ASDF.md": "SiPython",
-  "Kubernetes Exploitation.md": "SiKubernetes",
   "Linux Exploitation.md": "SiLinux",
   "Sudo.md": "SiLinux",
-  "Virtualenv.md": "SiPython"
+  "Virtualenv.md": "SiPython",
+  "Kubernetes": "SiKubernetes",
+  "Kubernetes/Helmfile.md": "SiKubernetes",
+  "Kubernetes/Kubernetes Exploitation.md": "SiKubernetes",
+  "Kubernetes/Flux CD.md": "✍"
 }
