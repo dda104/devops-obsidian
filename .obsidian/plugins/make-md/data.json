@@ -44,8 +44,7 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
-    "//Kubernetes"
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
