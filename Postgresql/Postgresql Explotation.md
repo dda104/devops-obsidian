@@ -1,3 +1,6 @@
+---
+color: var(--mk-color-base-60)
+---
 # db size
 
 ```sql
