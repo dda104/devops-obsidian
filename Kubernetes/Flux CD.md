@@ -4,7 +4,7 @@
 curl -s https://fluxcd.io/install.sh | sudo bash
 ```
 
-Создать репозиторий в gitlab
+Опционально создать репозиторий в gitlab
 
 Создать токен в gitlab
 
@@ -136,6 +136,12 @@ spec:
 
 ```shell
 flux get all
+```
+
+## Uninstall
+
+```shell
+flux uninstall
 ```
 
 # 🌎 Links
