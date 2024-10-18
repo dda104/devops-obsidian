@@ -1,3 +1,6 @@
+---
+sticker: lucide//git-pull-request
+---
 # 👯‍♀️ Mirroring from Gitlab to Github
 
 ## 📝 Prepare
