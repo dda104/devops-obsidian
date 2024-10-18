@@ -43,7 +43,6 @@
   "Linux Security.md": "LiAlertTriangle",
   "LLM via Ollama and LM Studio.md": "🧠",
   "Terraform.md": "✍",
-  "Ansible.md": "✍",
   "Mlflow.md": "🧠",
   "Mdadm.md": "LiHardDrive",
   "Images": "LiImage",
@@ -52,5 +51,6 @@
   "Sudo.md": "SiLinux",
   "Virtualenv.md": "SiPython",
   "Kubernetes": "SiKubernetes",
-  "Postgresql": "SiPostgresql"
+  "Postgresql": "SiPostgresql",
+  "Ansible.md": "✍"
 }
