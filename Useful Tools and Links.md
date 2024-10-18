@@ -34,7 +34,9 @@
 - [sqlformat.org](sqlformat.org) - Форматирование SQL команд
 - [ansible-vault.braz.dev](https://ansible-vault.braz.dev) - Шифрование и Расшифровка Ansible Vault
 - [Markdown Emoji](https://gist.github.com/rxaviers/7360908) - Полный список кодов для emoji в Markdown
-- [Ansible test Templates 1](https://ansible.sivel.net/test/)
-- [Ansible test Templates 2](https://j2live.ttl255.com)
+- [Ansible test Templates 1](https://ansible.sivel.net/test/) - Проверка J2 шаблонов
+- [Ansible test Templates 2](https://j2live.ttl255.com) - Проверка J2 шаблонов
+- [dnsdumpster.com](dnsdumpster.com) - Поиск DNS записей
+- [crt.sh](crt.sh) - Поиск SSL/TLS сертификатов
 
 ---
