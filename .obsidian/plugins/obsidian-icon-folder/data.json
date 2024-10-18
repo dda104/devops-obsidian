@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPostgresql",
       "SiLinux",
       "✍",
       "SiKubernetes",
-      "🧠",
-      "LiBrain"
+      "🧠"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,7 +52,5 @@
   "Sudo.md": "SiLinux",
   "Virtualenv.md": "SiPython",
   "Kubernetes": "SiKubernetes",
-  "Kubernetes/Helmfile.md": "SiKubernetes",
-  "Kubernetes/Kubernetes Exploitation.md": "SiKubernetes",
-  "Kubernetes/Flux CD.md": "✍"
+  "Postgresql": "SiPostgresql"
 }
