@@ -1,5 +1,6 @@
 ---
 sticker: emoji//1f427
+color: var(--mk-color-orange)
 ---
 # 📖 Introduction
 
