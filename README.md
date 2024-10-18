@@ -1,5 +1,7 @@
 ---
 sticker: emoji//2757
+color: 
+aliases:
 ---
 # 🐶 Devops Obsidian Public Repository
 
