@@ -1,3 +1,6 @@
+---
+color: var(--mk-color-teal)
+---
 # Install K3S
 
 Simple Install
