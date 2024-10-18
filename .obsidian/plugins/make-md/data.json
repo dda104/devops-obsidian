@@ -45,7 +45,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//Archive",
-    "/"
+    "/",
+    "//Archived"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
