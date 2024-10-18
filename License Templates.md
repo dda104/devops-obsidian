@@ -28,3 +28,9 @@ For more information, please refer to <http://unlicense.org/>
 ```
 
 ---
+
+# 🌎 Links
+
+- [unlicense](http://unlicense.org/)
+
+---
