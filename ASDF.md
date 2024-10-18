@@ -1,5 +1,5 @@
 ---
-sticker: emoji//1f9f0
+sticker: emoji//1f4e6
 ---
 # 📖 Introduction
 
