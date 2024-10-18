@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f427
+---
 # Selinux
 
 ## Semanage
