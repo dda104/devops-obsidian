@@ -1,3 +1,6 @@
+---
+sticker: lucide//file-text
+---
 # Prepared texts LICENSE files
 
 ```text title=Unlicense
