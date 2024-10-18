@@ -1,3 +1,6 @@
+---
+sticker: emoji//270d-fe0f
+---
 # ❗ TODO
 
 - [ ] Добавить requirements.yml и requirements.txt
