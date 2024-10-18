@@ -1,5 +1,5 @@
 ---
-sticker: lucide//server
+sticker: emoji//1f427
 ---
 # 👨‍🏭 Usage
 
