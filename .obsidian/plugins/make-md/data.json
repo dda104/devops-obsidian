@@ -45,8 +45,7 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//Archive",
-    "/",
-    "//Kubernetes"
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

@@ -1,4 +1,4 @@
 ---
-color: var(--mk-color-base-30)
+color: var(--mk-color-blue)
 sticker: emoji//1f418
 ---
