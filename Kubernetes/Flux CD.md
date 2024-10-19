@@ -150,6 +150,7 @@ flux uninstall
 # 🌎 Links
 
 
+- [fluxcd.io](https://fluxcd.io)
 - [FluxCD в действии - Георг Гаал](https://www.youtube.com/watch?v=T4fkWIGahiQ&t=711s)
 
 ---
