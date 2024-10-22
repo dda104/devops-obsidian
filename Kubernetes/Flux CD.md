@@ -1,6 +1,3 @@
----
-color: var(--mk-color-teal)
----
 # 🚀 Get started
 
 ```shell
