@@ -1,7 +1,3 @@
----
-sticker: emoji//1f427
-color: var(--mk-color-orange)
----
 # 👨‍🏭 Usage
 
 **Mdadm** - Утилита linux для управления raid массивами
