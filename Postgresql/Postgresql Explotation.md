@@ -39,5 +39,9 @@ select * from pg_stat_replication;
 Проверить время отставания реплики(выполнять с реплики)
 
 ```sql
-
+SELECT now() - pg_last_xact_replay_timestamp();
 ```
+
+# 🌎 Links
+
+- [отставание реплики](https://snakeproject.ru/rubric/article.php?art=postgresql_delay_10.12.2018)
