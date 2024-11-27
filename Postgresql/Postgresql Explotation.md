@@ -27,3 +27,17 @@ SELECT schemaname,
 FROM pg_catalog.pg_statio_user_tables
 ORDER BY pg_total_relation_size(relid) DESC;
 ```
+
+# Replication
+
+Проверить статус репликации
+
+```sql
+select * from pg_stat_replication;
+```
+
+Проверить время отставания реплики(выполнять с реплики)
+
+```sql
+
+```
