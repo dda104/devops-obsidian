@@ -2,9 +2,11 @@
 
 ## SLO SLA SLI
 
-SLO (**Service Level Objectives**) - Это цель доступности например 99.99%
+SLO (**Service Level Objectives**) - Это цель доступности, например 99.99%
 
-SLI (**Service Level Indicator**) - Это индикатор доступности
+SLI (**Service Level Indicator**) - Это индикатор доступности, реальное время доступности, например 98%
+
+SLA - Это время реагирования на инцидент, например 2 часа
 
 ## RED Method
 
