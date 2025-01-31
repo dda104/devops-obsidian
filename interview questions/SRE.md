@@ -2,7 +2,9 @@
 
 ## SLO SLA SLI
 
-SLO - **Service Level Objectives** 
+SLO (**Service Level Objectives**) - Это цель доступности например 99.99%
+
+SLI )
 
 ## RED Method
 
