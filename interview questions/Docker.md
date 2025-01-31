@@ -11,4 +11,6 @@ ADD my-archive.tar.gz /usr/src/app/
 
 ## Expose
 
+Служит для описания портов
+
 
