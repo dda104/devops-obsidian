@@ -31,7 +31,13 @@ RED - Это аббревиатура означающая 3 метрики:
 
 ## USE Method
 
+RED - Это аббревиатура означающая 3 метрики:
+
+- _Utilization_ (Измерение процента использования ресурса)
+- _Saturation_ ()
+- _Errors_ ()
+
 ## 🌎 Links
 
 - https://market.cnews.ru/articles/2024-11-14_slasloslislm_razbiraemsya_v_terminah
-- 
+- https://logz.io/blog/evops-sre-metrics/
