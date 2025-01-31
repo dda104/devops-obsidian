@@ -19,7 +19,7 @@ SLI (**Service Level Indicator**) - Это индикатор доступнос
 - **Пропускная способность (Throughput).** Количество запросов, обработанных системой за единицу времени.
 - **Уровень ошибок (Error Rate).** Доля неудачных запросов по отношению ко всем запросам.
 
-SLA  (Service Level Agreement) - Соглашение об уровне обслуживания, например время реагирования на инцидент или обращение
+SLA  (**Service Level Agreement**) - Соглашение об уровне обслуживания, например время реагирования на инцидент или обращение
 
 ## RED Method
 
@@ -41,3 +41,4 @@ USE - Это аббревиатура означающая 3 метрики:
 
 - https://market.cnews.ru/articles/2024-11-14_slasloslislm_razbiraemsya_v_terminah
 - https://logz.io/blog/evops-sre-metrics/
+- https://libeldoc.bsuir.by/bitstream/123456789/35945/1/Zhuk_Metody1.pdf
