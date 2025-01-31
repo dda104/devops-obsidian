@@ -4,7 +4,7 @@
 
 SLO (**Service Level Objectives**) - Это цель доступности например 99.99%
 
-SLI )
+SLI (**Service Level Indicator**) - Это индикатор доступности
 
 ## RED Method
 
