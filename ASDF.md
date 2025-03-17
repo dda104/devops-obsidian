@@ -29,6 +29,14 @@ asdf install python <Semantic_version>
 asdf global python <Semantic_version>
 ```
 
+Поиск доступных плагинов:
+
+```shell
+asdf plugin list all
+```
+
+Ю
+
 # ✍️ Use case
 
 Предлагается в гит репозиториях заводить файл `.tool-versions` с указанием используемых инструментов и их версий, например:
