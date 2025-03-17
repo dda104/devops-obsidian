@@ -56,7 +56,8 @@ cat .tool-versions | awk '{print $1}' | xargs -i asdf plugin add {}
 asdf install
 ```
 
-При переходе в директорию с файлом `.tool-versions` asdf сам переключит версии инструментов на 
+> [!note]
+> При переходе в директорию с файлом `.tool-versions` asdf сам переключит версии инструментов на выбранные
 
 ---
 
