@@ -8,5 +8,5 @@ Direnv позваляет создавать автоматически пере
 #!/not/executable/bash
 
 export VIRTUAL_ENV=".venv"
-layout python3 .venv
+layout python
 ```
