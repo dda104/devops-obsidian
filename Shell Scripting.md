@@ -76,6 +76,12 @@ asdf plugin add goss
 > `<command> | sed -e 's/<delete words>/<add words>/g' -e 's/<delete other words>/<add some words>/g'` 
 
 
+Заменить все вхождения в файле:
+
+```shell
+sed -i 's/<delete words>/<add words>/g' <path>/<file>
+```
+
 Вывести 10 строку из file
 
 ```shell
