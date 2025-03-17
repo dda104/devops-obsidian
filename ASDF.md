@@ -49,7 +49,14 @@ task 3.41.0
 goss 0.4.9
 ```
 
-Для установки 
+Для установки можно использовать скрипт:
+
+```shell
+cat .tool-versions | awk '{print $1}' | xargs -i asdf plugin add {}
+asdf install
+```
+
+При переходе в директорию с файлом `.tool-versions` asdf сам переключит версии инструментов на 
 
 ---
 
