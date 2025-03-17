@@ -21,11 +21,15 @@ source <Path_git_repository>/completions/asdf.bash
 
 # 👨‍🏭 Usage
 
+Глобальная установка python
+
 ```shell title=Python
 asdf plugin-add python
 asdf install python <Semantic_version>
 asdf global python <Semantic_version>
 ```
+
+#
 
 ---
 
