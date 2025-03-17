@@ -50,8 +50,13 @@ Ansible - Это система управления кофигурациями.
 
 ## 📄 Ansible Tasks
 
+Пример ansible таска
+
 ```yaml title=main.yml
+---
 - name: Debug ansible pkg mgr
+  ansible.builtin.debug:
+    msg: "{{ ansible_pkg_mgr }}"
 ```
 
 ## 📑 Ansible Playbook
