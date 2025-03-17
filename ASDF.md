@@ -31,7 +31,14 @@ asdf global python <Semantic_version>
 
 # ✍️ Use case
 
-Предлагается в гит репозиториях заводить 
+Предлагается в гит репозиториях заводить файл `.tool-versions` с указанием используемых инструментов и их версий, например:
+
+```shell title=.tool-versions
+python 3.13.2
+direnv 2.35.0
+task 3.41.0
+goss 0.4.9
+```
 
 ---
 
