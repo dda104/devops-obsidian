@@ -82,6 +82,9 @@ asdf plugin add goss
 sed -i 's/<delete words>/<add words>/g' <path>/<file>
 ```
 
+>[!note]
+>`sed` позволяет использовать регулярные выражения, например: `'s/#.*//g'`
+
 Вывести 10 строку из file
 
 ```shell
