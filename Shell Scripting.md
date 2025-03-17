@@ -72,7 +72,9 @@ asdf plugin add goss
 ```
 
 > [!note]
-> м
+> Можно использовать сразу несколько замен, например:
+> `<command> | sed -e 's/<delete words>/<add words>/g' -e 's/<delete other words>/<add some words>/g'` 
+
 
 Вывести 10 строку из file
 
