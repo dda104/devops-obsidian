@@ -51,7 +51,8 @@ cat .tool-versions | awk '{print $1}' | xargs -i asdf plugin add {}
 ```
 
 - `cat .tool-versions` - выведет файл
-- 
+- `awk '{print $1}'` - выведет только первый столбец: `python`, `direnv`, `task`, `goss`
+- `xargs -i asdf plugin add {}` - составит команды с данными аргумента
 
 ---
 
