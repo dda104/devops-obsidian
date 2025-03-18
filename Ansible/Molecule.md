@@ -46,9 +46,20 @@ uv add molecule-plugins[docker]
 Обновим `.gitignore`
 
 ```diff title=.gitignore
++ .vscode
++ .idea
++ .ansible
+
 # Python-generated files
 __pycache__
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
+# Virtual environments
+.venv
 ```
 
 Создадим простой сценарий molecule:
