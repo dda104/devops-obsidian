@@ -39,6 +39,11 @@ uv add molecule-plugins[docker]
 > `uv add molecule-plugins[docker]`, docker можно заменить на другие драйверы: podman, azure, containers, ec2, gce, openstack, vagrant
 > [Github molecule-plugins](https://github.com/ansible-community/molecule-plugins)
 
+> [!note]
+> Чтобы скачать зависимости после клонирования репозитория выполнить:
+> `uv sync`
+
+
 Создадим простой сценарий molecule:
 
 ```shell
