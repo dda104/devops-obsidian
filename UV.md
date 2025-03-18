@@ -2,7 +2,7 @@
 
 > - 🚀 A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more.
 
-# Ansible with uv
+# 🅰️ Ansible with uv
 
 Установим uv через [[ASDF]]:
 
@@ -45,7 +45,7 @@ wheels/
 
 Удалим `main.py`
 
-# Usage uv
+# 👷 Usage uv
 
 Для запуска иструментов следует использовать `uv run`, например:
 
