@@ -253,19 +253,19 @@ uv run molecule test --destroy=never
 Удалить контейнеры после тестов:
 
 ```shell
-molecule destroy
+uv run molecule destroy
 ```
 
 Чтобы вызвать конкретный шаг:
 
 ```shell
-molecule verify
+uv run molecule verify
 ```
 
 Чтобы вызвать нестандартный сценарий:
 
 ```shell
-molecule -s some_scenario_name test
+uv run molecule -s some_scenario_name test
 ```
 
 # 🌎 Links
