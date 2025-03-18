@@ -1,4 +1,3 @@
-
 # 📖 Introduction
 
 - uv - Инструмент заменяющий группу инструментов для разработки на python, ansible, pulumi и т.п.
@@ -86,7 +85,7 @@ uv add ruff
 Обновим `Pulumi.yaml`:
 
 ```diff title=Pulumi.yaml
-name: gitlab
+name: pulumi-project
 runtime:
   name: python
 +  options:
