@@ -9,14 +9,17 @@ python 3.13.2
 uv 0.6.6
 ```
 
-Подготовим проект в uv:
+Подготовим проект для ansible в uv:
 
 ```shell
 uv init
 uv add ansible
 uv add ansible-core
 uv add molecule
-uv add molecule-plugins[docker]
+uv add molecule-plugins[podman]
+uv add ansible-doctor
+uv add ansible-lint
+uv add yamllint
 ```
 
 
