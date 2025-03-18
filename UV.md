@@ -53,6 +53,15 @@ wheels/
 uv run ansible-playbook -i ...
 ```
 
+Для того чтобы установить все зависомости после клонирования репозитория:
+
+```shell
+uv sync
+```
+
+# Pulumi with uv
+
+
 # 🌎 Links
 
 - [Github uv](https://github.com/astral-sh/uv)
