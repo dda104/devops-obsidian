@@ -43,6 +43,11 @@ uv add molecule-plugins[docker]
 > Чтобы скачать зависимости после клонирования репозитория выполнить:
 > `uv sync`
 
+Обновим `.gitignore`
+
+```shell title=.gitignore
+
+```
 
 Создадим простой сценарий molecule:
 
