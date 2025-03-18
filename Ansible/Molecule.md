@@ -45,7 +45,9 @@ uv add molecule-plugins[docker]
 
 Обновим `.gitignore`
 
-```shell title=.gitignore
+```diff title=.gitignore
+# Python-generated files
+__pycache__
 
 ```
 
