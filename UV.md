@@ -82,8 +82,17 @@ uv add ruff
 
 Обновим `Pulumi.yaml`:
 
-```diff title=
+```diff title=Pulumi.yaml
+name: gitlab
+runtime:
+  name: python
++  options:
++    toolchain: uv
++    virtualenv: .venv
 ```
+
+> [!note]
+> 
 
 # 🌎 Links
 
