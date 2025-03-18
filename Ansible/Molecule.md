@@ -13,6 +13,8 @@ ansible_role
     └── main.yml
 ```
 
+## Prepare
+
 Установим uv через [[ASDF]]:
 
 ```shell title=.tool-versions
@@ -49,7 +51,7 @@ uv add molecule-plugins[docker]
 + .vscode
 + .idea
 + .ansible
-
++
 # Python-generated files
 __pycache__
 *.py[oc]
@@ -61,6 +63,8 @@ wheels/
 # Virtual environments
 .venv
 ```
+
+Удалим `main.py`
 
 Создадим простой сценарий molecule:
 
