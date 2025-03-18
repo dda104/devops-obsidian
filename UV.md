@@ -2,14 +2,14 @@
 
 > - 🚀 A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more.
 
+# Ansible with uv
+
 Установим uv через [[ASDF]]:
 
 ```shell title=.tool-versions
 python 3.13.2
 uv 0.6.6
 ```
-
-# Ansible with uv
 
 Подготовим проект для ansible в uv:
 
@@ -61,13 +61,21 @@ uv sync
 
 # Pulumi with uv
 
+Установим uv через [[ASDF]]:
+
+```shell title=.tool-versions
+python 3.13.2
+uv 0.6.6
+pulumi 
+```
+
 Подготовим проект для pulumi в uv:
 
 ```shell
 uv init
 uv add pulumi
 uv add pulumi-gitlab
-uv add 
+uv add ruff
 ```
 
 # 🌎 Links
