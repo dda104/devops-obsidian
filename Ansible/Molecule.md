@@ -232,7 +232,7 @@ molecule verify
 Чтобы вызвать нестандартный сценарий:
 
 ```shell
-molecule -s some_
+molecule -s some_scenario_name test
 ```
 
 # 🌎 Links
