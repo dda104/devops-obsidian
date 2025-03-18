@@ -1,3 +1,6 @@
+
+# 📖 Introduction
+
 - uv - Инструмент заменяющий группу инструментов для разработки на python, ansible, pulumi и т.п.
 
 > - 🚀 A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more.
@@ -59,7 +62,7 @@ uv run ansible-playbook -i ...
 uv sync
 ```
 
-# Pulumi with uv
+# 🏗️ Pulumi with uv
 
 Установим uv через [[ASDF]]:
 
