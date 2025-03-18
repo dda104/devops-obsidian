@@ -66,7 +66,7 @@ uv sync
 ```shell title=.tool-versions
 python 3.13.2
 uv 0.6.6
-pulumi 
+pulumi 3.156.0
 ```
 
 Подготовим проект для pulumi в uv:
@@ -76,6 +76,13 @@ uv init
 uv add pulumi
 uv add pulumi-gitlab
 uv add ruff
+```
+
+Удалим `main.py`
+
+Обновим `Pulumi.yaml`:
+
+```diff title=
 ```
 
 # 🌎 Links
