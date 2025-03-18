@@ -270,4 +270,5 @@ molecule -s some_scenario_name test
 
 # 🌎 Links
 
+- [Molecule docs](molecule.readthedocs.io/)
 - [Github molecule-plugins](https://github.com/ansible-community/molecule-plugins)
