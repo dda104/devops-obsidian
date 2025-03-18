@@ -61,6 +61,14 @@ uv sync
 
 # Pulumi with uv
 
+Подготовим проект для pulumi в uv:
+
+```shell
+uv init
+uv add pulumi
+uv add pulumi-gitlab
+uv add 
+```
 
 # 🌎 Links
 
