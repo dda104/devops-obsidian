@@ -15,7 +15,7 @@ ansible_role
     └── main.yml
 ```
 
-## Prepare
+## 🏗️ Prepare
 
 Установим uv через [[ASDF]]:
 
@@ -68,7 +68,7 @@ wheels/
 
 Удалим `main.py`
 
-## Write molecule
+## ✍️ Write molecule
 
 Создадим простой сценарий molecule:
 
