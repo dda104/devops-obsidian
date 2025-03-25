@@ -17,7 +17,7 @@ ansible_role
 
 ## 🏗️ Prepare
 
-Установим [[uv]] через [[asdf]]:
+Установим [[uv - package manager]] через [[asdf]]:
 
 ```shell title=.tool-versions
 python 3.13.2
