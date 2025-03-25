@@ -1,4 +1,4 @@
-# 👯‍♀️ Mirroring from Gitlab to Github
+# 👯‍♀️ Зеркалирование Gitlab to Github
 
 ## 📝 Prepare
 
