@@ -1,4 +1,4 @@
-# ❗ TODO
+# ❗ TODO - все переписать
 
 - [ ] Добавить requirements.yml и requirements.txt
 - [ ] Добавить Gathering facts
