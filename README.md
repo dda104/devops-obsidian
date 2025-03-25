@@ -60,6 +60,8 @@
 
 - [x] dda104
 - [x] lykart
+- [ ] ilianoru
+- [ ] Crazok
 
 ---
 
