@@ -15,5 +15,14 @@
       ],
       "key": "C"
     }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
