@@ -6,4 +6,4 @@ Linux:
 
 - [lpic 101](https://www.youtube.com/watch?v=rKCu-tfL730&list=PLmxB7JSpraiep6kr802UDqiAIU-76nGfc)
 - [lpic 102](https://www.youtube.com/watch?v=aRcRAA1Gj_4&list=PLmxB7JSpraieH3aScuPs7h77cSEQvPi2A)
-- [lpic ]
+- [lpic 201](https://www.youtube.com/watch?v=wq2YcCoOKkE&list=PLmxB7JSpraidTqByo0ihkyExIbKfAB-B9)
