@@ -5,4 +5,5 @@ Linux:
 - Часть IV [1](https://habr.com/ru/articles/116907/)
 
 - [lpic 101](https://www.youtube.com/watch?v=rKCu-tfL730&list=PLmxB7JSpraiep6kr802UDqiAIU-76nGfc)
-- 
+- [lpic 102](https://www.youtube.com/watch?v=aRcRAA1Gj_4&list=PLmxB7JSpraieH3aScuPs7h77cSEQvPi2A)
+- [lpic ]
